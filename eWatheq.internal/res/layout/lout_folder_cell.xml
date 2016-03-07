@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/rl_lv_folder_cell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_folder_green" >
+
+        <TextView
+            android:id="@+id/tv_folder_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:gravity="left|center_vertical"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingBottom="20dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white" />
+
+        <ae.ewatheq.utils.CustomTextViewEqualWidthHeight
+            android:id="@+id/tv_folder_nof"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_round_edges"
+            android:gravity="center"
+            android:paddingBottom="1dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="1dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

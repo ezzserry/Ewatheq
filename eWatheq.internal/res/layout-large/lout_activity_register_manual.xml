@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ewatheq_color_sign_in_bg" >
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/rv_eid_thumb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/ewatheq_color_primary"
+        app:mrl_rippleColor="@color/ewatheq_color_primary_one_fifth"
+         >
+
+
+
+
+        <ImageView
+            android:id="@+id/iv_eid_thumb"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="0dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_register_camera" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rv_eid_thumb"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" >
+
+                <ImageView
+                    android:id="@+id/iv_watheq_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/screen_logo"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bg_et_username"
+                    android:gravity="left"
+                    android:hint="@string/str_name_hint"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/et_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bg_et_email"
+                    android:gravity="left"
+                    android:hint="@string/str_email_hint"
+                    android:inputType="textEmailAddress" />
+                <EditText
+                    android:id="@+id/et_emirates_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bg_et_emirates_id"
+                    android:gravity="left"
+                    android:hint="@string/str_emirates_id_hint"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bg_et_password"
+                    android:gravity="left"
+                    android:hint="@string/str_password_hint"
+                    android:inputType="textPassword" />
+
+                <EditText
+                    android:id="@+id/et_confirm_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/bg_et_password"
+                    android:gravity="left"
+                    android:hint="@string/str_confirm_password"
+                    android:inputType="textPassword" />
+
+
+                <CheckBox
+                    android:id="@+id/cb_agreed_on_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginBottom="15dp"
+                    android:text="@string/str_i_agree_all_info_is_correct" />
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:mrl_rippleColor="@android:color/white"
+                    app:mrl_rippleAlpha="1.0"
+                     >
+                    <TextView
+                        android:id="@+id/btn_register"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_btn_primary"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="@string/str_submit"
+                        android:textColor="@android:color/white" />
+                </com.balysv.materialripple.MaterialRippleLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rl_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ewatheq_color_half_black_transparent"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/color_black_alpha_fifty"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <com.balysv.material.menu.MaterialMenuView
+            android:id="@+id/btn_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            app:mm_color="@android:color/white"
+            app:mm_strokeWidth="20" />
+    </RelativeLayout>
+
+</RelativeLayout>

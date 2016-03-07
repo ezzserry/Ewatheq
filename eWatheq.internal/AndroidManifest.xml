@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ae.ewatheq.internal"
+    android:versionCode="11"
+    android:versionName="0.0.11.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <application
+
+        android:name="ae.ewatheq.app.AppController"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="ae.ewatheq.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" >
+                </action>
+
+                <category android:name="android.intent.category.DEFAULT" >
+                </category>
+                <category android:name="android.intent.category.BROWSABLE" >
+                </category>
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" >
+                </action>
+
+                <category android:name="android.intent.category.DEFAULT" >
+                </category>
+                <category android:name="android.intent.category.BROWSABLE" >
+                </category>
+
+                <data
+                    android:mimeType="application/pdf"
+                    android:scheme="file" >
+                </data>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" >
+                </action>
+
+                <category android:name="android.intent.category.DEFAULT" >
+                </category>
+                <category android:name="android.intent.category.BROWSABLE" >
+                </category>
+
+                <data
+                    android:mimeType="application/pdf"
+                    android:scheme="content" >
+                </data>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" >
+                </action>
+
+                <category android:name="android.intent.category.DEFAULT" >
+                </category>
+                <category android:name="android.intent.category.BROWSABLE" >
+                </category>
+
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\.[pP][dD][fF]"
+                    android:scheme="file" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ae.ewatheq.FilesActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="ae.ewatheq.HelpActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="ae.ewatheq.SignInActivity"
+            android:launchMode="singleInstance"
+            android:label="@string/app_name" />
+        <activity
+            android:name="ae.ewatheq.RegisterActivity"
+
+            android:label="@string/app_name" />
+        <activity
+            android:name="ae.ewatheq.MainActivity"
+
+            android:label="@string/app_name" />
+
+        <activity
+            android:name="ae.ewatheq.ocr.HelpActivity"
+            android:label="@string/app_name"
+            />
+        <activity
+            android:name="ae.ewatheq.ocr.OCRActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+
+
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="7f09b80a5dde30b3ef46aaf1e3e241777d9ac74a" />
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_home_screen">#f5f5f5</color>
+   
+    
+    <color name="default_grey_dark">#AAAAAA</color>
+    <color name="btn_normal">#AAAAAA</color>
+    <color name="btn_pressed">#646464</color>
+    <color name="btn_disable">#DCDCDC</color>
+    <color name="default_grey_light">#D2D2D2</color>
+    <color name="color_light_blue">#A6C6EA</color>
+    <color name="color_orange">#FD4F00</color>
+    <color name="color_blue">#0082CB</color>
+    <color name="color_pink">#D8006C</color>
+    <color name="color_black_alpha_fifty">#80000000</color>
+    <!-- eWatheq Colors -->
+    <color name="ewatheq_color_sign_in_bg">#fcfbf6</color>
+    <color name="ewatheq_color_red">#f00</color>
+    <color name="ewatheq_color_primary">#ad172b</color>
+    <color name="ewatheq_color_forgot_password">#686868</color>
+    <color name="ewatheq_color_primary_one_fifth">#30ad172b</color>
+    <color name="ewatheq_rippelColor">#FFFFFF</color>
+     <color name="ewatheq_color_half_black_transparent">#80000000</color>
+    <color name="ewatheq_color_half_white_transparent">#80FFFFFF</color>
+    <color name="ewatheq_color_one_forth_black_transparent">#40000000</color>
+    <color name="ewatheq_color_one_forth_white_transparent">#40FFFFFF</color>
+    
+     <!-- Crop Colors -->
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+    <!-- PDF Colors -->
+    <color name="pdf_text_black">#000000</color>
+    <color name="pdf_canvas">#FF404040</color>
+    <color name="pdf_bar">#C0202020</color>
+    <color name="pdf_progress_middle">#EEEEEEEE</color>
+    <color name="pdf_toolbar">#C0000000</color>
+    <color name="pdf_page_indicator">#C0202020</color>
+    <color name="pdf_busy_indicator">#C0202020</color>
+    <color name="pdf_button_normal">#00000000</color>
+    <color name="pdf_button_pressed">#FF2572AC</color>
+    <color name="pdf_text_normal">#FFFFFF</color>
+    <color name="pdf_text_pressed">#FFFFFF</color>
+    <color name="pdf_text_border_normal">#000000</color>
+    <color name="pdf_text_border_pressed">#2572AC</color>
+    <color name="pdf_text_border_focused">#000000</color>
+    <color name="pdf_seek_thumb">#2572AC</color>
+    <color name="pdf_seek_progress">#FFFFFF</color>
+    <color name="pdf_header">#FF33B5E5</color>
+    <color name="pdf_white">#FFFFFF</color>
+    <color name="pdf_thumbnail_selected_background">#BBA8A8A8</color>
+
+</resources>

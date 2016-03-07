@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ewatheq_color_primary"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <com.balysv.material.menu.MaterialMenuView
+            android:id="@+id/btn_menu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            app:mm_color="@android:color/white"
+            app:mm_strokeWidth="20" />
+
+        <ImageButton
+            android:id="@+id/tv_top_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/top_bar_title" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_na_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_top_bar"
+        android:background="@drawable/na_border_repeat" />
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/iv_na_border">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="35"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/calendar1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <EditText
+                        android:id="@+id/inputSearch"
+                        style="@android:attr/textAppearanceMedium"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/bg_search"
+                        android:gravity="center"
+                        android:hint="@string/str_search_hint"
+                        android:imeOptions="actionSearch"
+                        android:inputType="text"
+                        android:textDirection="rtl" />
+
+                    <com.balysv.materialripple.MaterialRippleLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        ripple:rv_color="@color/ewatheq_color_primary_one_fifth"
+                        ripple:rv_rippleDuration="200"
+                        ripple:rv_type="rectangle">
+
+                        <TextView
+                            android:id="@+id/btn_show_all"
+                            style="@android:attr/textAppearanceMedium"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/bg_btn_search"
+                            android:gravity="center"
+                            android:text="@string/str_show_all"
+                            android:textColor="@color/ewatheq_color_red" />
+                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                    <ListView
+                        android:id="@+id/lv_folders"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="start"
+                        android:choiceMode="singleChoice"
+                        android:divider="@android:color/transparent"
+                        android:dividerHeight="-30dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="65"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_selected_folder_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/bg_selected_folder_title_0"
+                        android:ellipsize="marquee"
+                        android:fadingEdge="horizontal"
+                        android:gravity="left|center_vertical"
+                        android:lines="1"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/white" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl_slected_folder_btn_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@drawable/bg_selected_folder_btn_lout_0"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toLeftOf="@+id/tv_folder_nof">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <ae.ewatheq.utils.CustomTextViewEqualWidthHeight
+                                    android:id="@+id/btn_all"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/bg_round_edges_with_half_stroke"
+                                    android:gravity="center"
+                                    android:paddingBottom="1dp"
+                                    android:paddingLeft="15dp"
+                                    android:paddingRight="15dp"
+                                    android:paddingTop="1dp"
+                                    android:text="@string/str_all"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textColor="@color/ewatheq_color_half_white_transparent" />
+
+                                <ae.ewatheq.utils.CustomTextViewEqualWidthHeight
+                                    android:id="@+id/btn_photos"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/bg_round_edges_with_full_stroke"
+                                    android:gravity="center"
+                                    android:paddingBottom="1dp"
+                                    android:paddingLeft="15dp"
+                                    android:paddingRight="15dp"
+                                    android:paddingTop="1dp"
+                                    android:text="@string/str_photos"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textColor="@color/ewatheq_color_primary" />
+
+                                <ae.ewatheq.utils.CustomTextViewEqualWidthHeight
+                                    android:id="@+id/btn_docs"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="5dp"
+                                    android:layout_toRightOf="@+id/btn_photos"
+                                    android:background="@drawable/bg_round_edges_with_half_stroke"
+                                    android:gravity="center"
+                                    android:paddingBottom="1dp"
+                                    android:paddingLeft="15dp"
+                                    android:paddingRight="15dp"
+                                    android:paddingTop="1dp"
+                                    android:text="@string/str_documents"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textColor="@color/ewatheq_color_half_white_transparent" />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <ae.ewatheq.utils.CustomTextViewEqualWidthHeight
+                            android:id="@+id/tv_selected_folder_nof"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/bg_round_edges"
+                            android:gravity="center"
+                            android:paddingBottom="1dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="1dp"
+
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@android:color/white" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_folder_files">
+
+                        <GridView
+                            android:id="@+id/gv_files"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:columnWidth="120dp"
+                            android:gravity="center"
+                            android:horizontalSpacing="10dp"
+                            android:numColumns="auto_fit"
+                            android:stretchMode="columnWidth"
+                            android:verticalSpacing="10dp" />
+
+                        <com.github.clans.fab.FloatingActionMenu
+                            android:id="@+id/menu_add_file"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            fab:menu_backgroundColor="@color/ewatheq_color_one_forth_white_transparent"
+                            fab:menu_colorNormal="@color/ewatheq_color_primary"
+
+                            fab:menu_labels_ellipsize="end"
+                            fab:menu_labels_singleLine="true">
+
+                            <com.github.clans.fab.FloatingActionButton
+                                android:id="@+id/menu_item_capture_image"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_capture_image"
+                                fab:fab_colorNormal="@color/ewatheq_color_primary"
+                                fab:fab_label="@string/str_capture_image"
+                                fab:fab_size="mini" />
+
+                            <com.github.clans.fab.FloatingActionButton
+                                android:id="@+id/menu_item_select_file"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_select_file"
+                                fab:fab_colorNormal="@color/ewatheq_color_primary"
+                                fab:fab_label="@string/str_select_image_or_doc"
+                                fab:fab_size="mini" />
+                        </com.github.clans.fab.FloatingActionMenu>
+
+                        <RelativeLayout
+                            android:id="@+id/rl_no_files"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="@string/str_no_files"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@android:color/black" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/rl_loading"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/ewatheq_color_half_black_transparent"
+                            android:visibility="gone">
+
+                            <ProgressBar
+                                android:id="@+id/pb_loading"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@color/default_grey_light"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/black"
+            android:dividerHeight="1dp" />
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>

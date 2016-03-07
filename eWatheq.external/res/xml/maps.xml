@@ -1,0 +1,2602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<maps xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <map name="adibf_map" >
+
+        <!-- *********** HALL - 8 *********** -->
+        <area
+            name="J18"
+            coords="896,3156,996,3156,996,3178,896,3178"
+            exh_id="1043"
+            id="@+id/area1029"
+            shape="poly" />
+        <area
+            name="K06"
+            coords="1100,3305,1200,3305,1200,3340,1100,3340"
+            exh_id="1204"
+            id="@+id/area1006"
+            shape="poly" />
+        <area
+            name="J17"
+            coords="434,3265,1021,3265,1021,3339,439,3341"
+            id="@+id/area1007"
+            shape="poly" />
+        <area
+            name="I06"
+            coords="1042,3133,1194,3133,1194,3178,1042,3178"
+            exh_id="1381"
+            id="@+id/area1008"
+            shape="poly" />
+        <area
+            name="H06"
+            coords="1041,3037,1193,3037,1193,3084,1040,3084"
+            exh_id="933"
+            id="@+id/area1009"
+            shape="poly" />
+        <area
+            name="G06"
+            coords="1039,2911,1191,2911,1192,2982,1040,2982"
+            exh_id="1463"
+            id="@+id/area1010"
+            shape="poly" />
+        <area
+            name="F06-1"
+            coords="1040,2734,1192,2734,1193,2797,1040,2797"
+            exh_id="1508"
+            id="@+id/area1011"
+            shape="poly" />
+        <area
+            name="F06-2"
+            coords="1040,2797,1192,2797,1193,2860,1040,2860"
+            exh_id="829"
+            id="@+id/area1011"
+            shape="poly" />
+        <area
+            name="D06-1"
+            coords="1040,2629,1192,2629,1192,2657,1040,2657"
+            exh_id="1274"
+            id="@+id/area1012"
+            shape="poly" />
+        <area
+            name="D06-2"
+            coords="1040,2657,1192,2657,1192,2688,1040,2688"
+            exh_id="262"
+            id="@+id/area1012"
+            shape="poly" />
+        <area
+            name="C06-1"
+            coords="1041,2511,1194,2511,1194,2546,1040,2546"
+            exh_id="743"
+            id="@+id/area1013"
+            shape="poly" />
+        <area
+            name="C06-2"
+            coords="1041,2546,1194,2546,1193,2583,1040,2583"
+            exh_id="1626"
+            id="@+id/area100013"
+            shape="poly" />
+        <area
+            name="A06"
+            coords="1041,2344,1192,2344,1193,2455,1040,2455"
+            id="@+id/area1014"
+            shape="poly" />
+        <area
+            name="G01"
+            coords="1249,2538,1270,2538,1271,2583,1248,2583"
+            exh_id="1371"
+            id="@+id/area1015"
+            shape="poly" />
+        <area
+            name="D01"
+            coords="1249,2629,1270,2629,1271,2670,1248,2670"
+            exh_id="1403"
+            id="@+id/area1016"
+            shape="poly" />
+        <area
+            name="F01"
+            coords="1249,2704,1270,2704,1271,2778,1248,2778"
+            exh_id="1205"
+            id="@+id/area1017"
+            shape="poly" />
+        <area
+            name="F02"
+            coords="1249,2784,1270,2784,1271,2805,1248,2805"
+            exh_id="1725"
+            id="@+id/area1018"
+            shape="poly" />
+        <area
+            name="G01"
+            coords="1249,2836,1270,2836,1271,2936,1248,2936"
+            exh_id="1534"
+            id="@+id/area1019"
+            shape="poly" />
+        <area
+            name="G02"
+            coords="1249,2942,1270,2942,1271,2963,1248,2963"
+            exh_id="690"
+            id="@+id/area1020"
+            shape="poly" />
+        <area
+            name="H01"
+            coords="1249,2990,1270,2990,1271,3040,1248,3040"
+            exh_id="1703"
+            id="@+id/area1022"
+            shape="poly" />
+        <area
+            name="J46"
+            coords="515,3156,588,3156,588,3178,515,3178"
+            exh_id="301"
+            id="@+id/area1023"
+            shape="poly" />
+        <area
+            name="J42"
+            coords="593,3156,642,3156,642,3178,593,3178"
+            exh_id="1548"
+            id="@+id/area1024"
+            shape="poly" />
+        <area
+            name="J40"
+            coords="646,3156,667,3156,667,3178,646,3178"
+            exh_id="165"
+            id="@+id/area1025"
+            shape="poly" />
+        <area
+            name="J36"
+            coords="672,3156,720,3156,720,3178,672,3178"
+            exh_id="167"
+            id="@+id/area1026"
+            shape="poly" />
+        <area
+            name="J28"
+            coords="765,3156,838,3156,838,3178,765,3178"
+            exh_id="350"
+            id="@+id/area1027"
+            shape="poly" />
+        <area
+            name="J24"
+            coords="842,3156,892,3156,892,3178,842,3178"
+            exh_id="1604"
+            id="@+id/area1028"
+            shape="poly" />
+        <area
+            name="I47"
+            coords="514,3130,562,3130,562,3151,514,3151"
+            exh_id="886"
+            id="@+id/area1030"
+            shape="poly" />
+        <area
+            name="I35"
+            coords="567,3130,720,3130,720,3151,567,3151"
+            exh_id="885"
+            id="@+id/area1031"
+            shape="poly" />
+        <area
+            name="I29"
+            coords="764,3129,840,3129,840,3151,764,3151"
+            exh_id="1550"
+            id="@+id/area1032"
+            shape="poly" />
+        <area
+            name="I25"
+            coords="843,3130,890,3130,890,3151,843,3151"
+            exh_id="709"
+            id="@+id/area1033"
+            shape="poly" />
+        <area
+            name="I17"
+            coords="896,3130,997,3130,997,3151,896,3151"
+            exh_id="701"
+            id="@+id/area1034"
+            shape="poly" />
+        <area
+            name="I46"
+            coords="514,3063,588,3063,588,3085,514,3085"
+            exh_id="672"
+            id="@+id/area1035"
+            shape="poly" />
+        <area
+            name="I44"
+            coords="593,3063,615,3063,615,3085,593,3085"
+            exh_id="1438"
+            id="@+id/area1036"
+            shape="poly" />
+        <area
+            name="I36"
+            coords="620,3063,720,3063,720,3085,620,3085"
+            exh_id="1272"
+            id="@+id/area1037"
+            shape="poly" />
+        <area
+            name="I28"
+            coords="764,3063,864,3063,864,3085,764,3085"
+            exh_id="704"
+            id="@+id/area1038"
+            shape="poly" />
+        <area
+            name="I18"
+            coords="870,3063,997,3063,997,3085,870,3085"
+            exh_id="881"
+            id="@+id/area1039"
+            shape="poly" />
+        <area
+            name="H41"
+            coords="514,3036,641,3036,641,3058,514,3058"
+            exh_id="1112"
+            id="@+id/area1040"
+            shape="poly" />
+        <area
+            name="H35"
+            coords="646,3036,720,3036,720,3058,646,3058"
+            exh_id="702"
+            id="@+id/area1041"
+            shape="poly" />
+        <area
+            name="H25"
+            coords="764,3036,892,3036,892,3058,764,3058"
+            exh_id="690"
+            id="@+id/area1042"
+            shape="poly" />
+        <area
+            name="H17"
+            coords="896,3036,996,3036,996,3058,896,3058"
+            exh_id="1131"
+            id="@+id/area1043"
+            shape="poly" />
+        <area
+            name="H46"
+            coords="515,2958,563,2958,563,2980,515,2980"
+            id="@+id/area1044"
+            shape="poly" />
+        <area
+            name="H42"
+            coords="567,2958,615,2958,615,2980,567,2980"
+            exh_id="1382"
+            id="@+id/area1045"
+            shape="poly" />
+        <area
+            name="H36"
+            coords="620,2958,720,2958,720,2980,620,2980"
+            exh_id="1321"
+            id="@+id/area1046"
+            shape="poly" />
+        <area
+            name="H30"
+            coords="764,2958,839,2958,839,2980,764,2980"
+            exh_id="1232"
+            id="@+id/area1047"
+            shape="poly" />
+        <area
+            name="H18"
+            coords="843,2958,996,2958,996,2980,843,2980"
+            exh_id="1449"
+            id="@+id/area1048"
+            shape="poly" />
+        <area
+            name="G45"
+            coords="515,2932,563,2932,563,2953,515,2953"
+            exh_id="1028"
+            id="@+id/area1050"
+            shape="poly" />
+        <area
+            name="G41"
+            coords="567,2932,615,2932,615,2953,567,2953"
+            exh_id="115"
+            id="@+id/area1052"
+            shape="poly" />
+        <area
+            name="G35"
+            coords="620,2932,720,2932,720,2953,620,2953"
+            exh_id="1212"
+            id="@+id/area1053"
+            shape="poly" />
+        <area
+            name="G29"
+            coords="765,2932,838,2932,838,2953,765,2953"
+            exh_id="735"
+            id="@+id/area1054"
+            shape="poly" />
+        <area
+            name="G17"
+            coords="843,2932,996,2932,996,2953,843,2953"
+            exh_id="1271"
+            id="@+id/area1055"
+            shape="poly" />
+        <area
+            name="G46"
+            coords="515,2866,563,2866,563,2888,515,2888"
+            exh_id="1402"
+            id="@+id/area1056"
+            shape="poly" />
+        <area
+            name="G44"
+            coords="567,2866,616,2866,616,2888,567,2888"
+            exh_id="914"
+            id="@+id/area1057"
+            shape="poly" />
+        <area
+            name="G42"
+            coords="620,2866,642,2866,642,2888,620,2888"
+            exh_id="266"
+            id="@+id/area1058"
+            shape="poly" />
+        <area
+            name="G36"
+            coords="646,2866,720,2866,720,2888,646,2888"
+            exh_id="1035"
+            id="@+id/area1059"
+            shape="poly" />
+        <area
+            name="G28"
+            coords="764,2866,866,2866,866,2888,764,2888"
+            exh_id="677"
+            id="@+id/area1060"
+            shape="poly" />
+        <area
+            name="G18"
+            coords="870,2866,996,2866,996,2888,870,2888"
+            exh_id="171"
+            id="@+id/area1061"
+            shape="poly" />
+        <area
+            name="F43"
+            coords="515,2839,615,2839,615,2861,515,2861"
+            exh_id="1644"
+            id="@+id/area1062"
+            shape="poly" />
+        <area
+            name="F39"
+            coords="620,2839,668,2839,668,2861,620,2861"
+            exh_id="1018"
+            id="@+id/area1063"
+            shape="poly" />
+        <area
+            name="F35"
+            coords="673,2839,720,2839,720,2861,673,2861"
+            exh_id="731"
+            id="@+id/area1064"
+            shape="poly" />
+        <area
+            name="F29"
+            coords="764,2839,839,2839,839,2861,764,2861"
+            exh_id="913"
+            id="@+id/area1065"
+            shape="poly" />
+        <area
+            name="F25"
+            coords="843,2839,891,2839,891,2861,843,2861"
+            exh_id="1635"
+            id="@+id/area1066"
+            shape="poly" />
+        <area
+            name="F17"
+            coords="896,2839,996,2839,996,2861,896,2861"
+            exh_id="1022"
+            id="@+id/area1067"
+            shape="poly" />
+        <area
+            name="F30"
+            coords="765,2759,839,2759,839,2780,765,2780"
+            exh_id="449"
+            id="@+id/area1068"
+            shape="poly" />
+        <area
+            name="F24"
+            coords="843,2759,918,2759,918,2780,843,2780"
+            exh_id="668"
+            id="@+id/area1069"
+            shape="poly" />
+        <area
+            name="F18"
+            coords="923,2759,997,2759,997,2780,923,2780"
+            exh_id="1065"
+            id="@+id/area1070"
+            shape="poly" />
+        <area
+            name="F36"
+            coords="515,2643,720,2643,720,2783,515,2783"
+            id="@+id/area1071"
+            shape="poly" />
+        <area
+            name="H52"
+            coords="433,2960,455,2960,455,3008,433,3008"
+            exh_id="1506"
+            id="@+id/area1072"
+            shape="poly" />
+        <area
+            name="G52"
+            coords="433,2882,455,2882,455,2956,433,2956"
+            exh_id="1440"
+            id="@+id/area1073"
+            shape="poly" />
+        <area
+            name="E29"
+            coords="765,2733,839,2733,839,2754,765,2754"
+            exh_id="1526"
+            id="@+id/area1074"
+            shape="poly" />
+        <area
+            name="E25"
+            coords="844,2733,892,2733,892,2754,844,2754"
+            exh_id="1638"
+            id="@+id/area1075"
+            shape="poly" />
+        <area
+            name="E17"
+            coords="896,2733,996,2733,996,2754,896,2754"
+            exh_id="395"
+            id="@+id/area1076"
+            shape="poly" />
+        <area
+            name="E30"
+            coords="764,2667,839,2667,839,2688,764,2688"
+            exh_id="1398"
+            id="@+id/area1077"
+            shape="poly" />
+        <area
+            name="E28"
+            coords="844,2667,892,2667,892,2688,844,2688"
+            exh_id="1400"
+            id="@+id/area1078"
+            shape="poly" />
+        <area
+            name="E18"
+            coords="896,2667,996,2667,996,2688,896,2688"
+            exh_id="157"
+            id="@+id/area1079"
+            shape="poly" />
+        <area
+            name="D31"
+            coords="764,2640,813,2640,813,2662,764,2662"
+            exh_id="1646"
+            id="@+id/area1080"
+            shape="poly" />
+        <area
+            name="D17"
+            coords="818,2640,997,2640,997,2662,818,2662"
+            exh_id="1134"
+            id="@+id/area1081"
+            shape="poly" />
+        <area
+            name="D18"
+            coords="791,2561,997,2561,997,2584,791,2584"
+            exh_id="113"
+            id="@+id/area1082"
+            shape="poly" />
+        <area
+            name="D34"
+            coords="764,2561,787,2561,787,2584,764,2584"
+            exh_id="1622"
+            id="@+id/area1083"
+            shape="poly" />
+        <area
+            name="D36"
+            coords="568,2561,716,2561,716,2584,568,2584"
+            exh_id="1231"
+            id="@+id/area1084"
+            shape="poly" />
+        <area
+            name="D46"
+            coords="515,2561,564,2561,564,2584,515,2584"
+            exh_id="1597"
+            id="@+id/area1085"
+            shape="poly" />
+        <area
+            name="C47"
+            coords="515,2535,564,2535,564,2557,515,2557"
+            exh_id="1618"
+            id="@+id/area1086"
+            shape="poly" />
+        <area
+            name="C43"
+            coords="567,2535,616,2535,616,2557,567,2557"
+            exh_id="1617"
+            id="@+id/area1087"
+            shape="poly" />
+        <area
+            name="C35"
+            coords="620,2535,720,2535,720,2557,620,2557"
+            exh_id="315"
+            id="@+id/area1089"
+            shape="poly" />
+        <area
+            name="C27"
+            coords="764,2535,865,2535,865,2557,764,2557"
+            exh_id="1256"
+            id="@+id/area1090"
+            shape="poly" />
+        <area
+            name="C23"
+            coords="870,2535,918,2535,918,2557,870,2557"
+            exh_id="138"
+            id="@+id/area1091"
+            shape="poly" />
+        <area
+            name="C21C19C17"
+            coords="923,2535,997,2535,997,2557,923,2557"
+            exh_id="944"
+            id="@+id/area1092"
+            shape="poly" />
+        <area
+            name="C46"
+            coords="515,2469,590,2469,590,2490,515,2490"
+            exh_id="288"
+            id="@+id/area1093"
+            shape="poly" />
+        <area
+            name="C42"
+            coords="594,2469,643,2469,643,2490,594,2490"
+            exh_id="895"
+            id="@+id/area1094"
+            shape="poly" />
+        <area
+            name="C36"
+            coords="647,2469,721,2469,721,2490,647,2490"
+            exh_id="892"
+            id="@+id/area1095"
+            shape="poly" />
+        <area
+            name="C32"
+            coords="765,2469,813,2469,765,2490,813,2490"
+            exh_id="995"
+            id="@+id/area1096"
+            shape="poly" />
+        <area
+            name="C30"
+            coords="818,2469,840,2469,840,2490,818,2490"
+            exh_id="1643"
+            id="@+id/area1097"
+            shape="poly" />
+        <area
+            name="C26"
+            coords="844,2469,892,2469,892,2490,844,2490"
+            exh_id="258"
+            id="@+id/area1098"
+            shape="poly" />
+        <area
+            name="C22"
+            coords="896,2469,944,2469,944,2490,896,2490"
+            exh_id="887"
+            id="@+id/area1099"
+            shape="poly" />
+        <area
+            name="C18"
+            coords="944,2469,996,2469,996,2490,944,2490"
+            exh_id="326"
+            id="@+id/area100099"
+            shape="poly" />
+        <area
+            name="B23"
+            coords="844,2442,925,2442,925,2464,844,2464"
+            exh_id="657"
+            id="@+id/area110000"
+            shape="poly" />
+        <area
+            name="B17"
+            coords="925,2442,997,2442,997,2464,925,2464"
+            exh_id="273"
+            id="@+id/area1100"
+            shape="poly" />
+        <area
+            name="B29"
+            coords="764,2442,840,2442,840,2464,764,2464"
+            exh_id="147"
+            id="@+id/area1101"
+            shape="poly" />
+        <area
+            name="B35"
+            coords="620,2442,720,2442,720,2464,620,2464"
+            exh_id="513"
+            id="@+id/area1102"
+            shape="poly" />
+        <area
+            name="B43"
+            coords="567,2442,620,2442,620,2464,567,2464"
+            exh_id="249"
+            id="@+id/area110002"
+            shape="poly" />
+        <area
+            name="B47"
+            coords="515,2442,567,2442,567,2464,515,2464"
+            exh_id="1254"
+            id="@+id/area110003"
+            shape="poly" />
+        <area
+            name="B36"
+            coords="515,2365,720,2365,720,2387,515,2387"
+            exh_id="1294"
+            id="@+id/area1103"
+            shape="poly" />
+        <area
+            name="B32"
+            coords="764,2365,812,2365,812,2387,764,2387"
+            exh_id="840"
+            id="@+id/area1104"
+            shape="poly" />
+        <area
+            name="B28"
+            coords="816,2365,864,2365,864,2387,816,2387"
+            exh_id="1410"
+            id="@+id/area1105"
+            shape="poly" />
+        <area
+            name="B24"
+            coords="868,2365,917,2365,917,2387,868,2387"
+            exh_id="1665"
+            id="@+id/area1106"
+            shape="poly" />
+        <area
+            name="B18"
+            coords="921,2365,996,2365,996,2387,921,2387"
+            exh_id="1070"
+            id="@+id/area1107"
+            shape="poly" />
+        <area
+            name="B52"
+            coords="435,2482,457,2482,457,2507,435,2507"
+            exh_id="1444"
+            id="@+id/area1108"
+            shape="poly" />
+        <area
+            name="C52"
+            coords="435,2507,457,2507,457,2530,435,2530"
+            exh_id="1608"
+            id="@+id/area110008"
+            shape="poly" />
+        <area
+            name="A33A29A25A21A17"
+            coords="764,2339,996,2339,996,2360,764,2360"
+            id="@+id/area1109"
+            shape="poly" />
+        <area
+            name="A35"
+            coords="619,2339,719,2339,719,2360,619,2360"
+            exh_id="1294"
+            id="@+id/area1110"
+            shape="poly" />
+        <area
+            name="A43"
+            coords="515,2339,615,2339,615,2360,515,2360"
+            exh_id="1213"
+            id="@+id/area1112"
+            shape="poly" />
+        <!-- *********** HALL - 8 *********** -->
+
+
+        <!-- *********** HALL - 9 *********** -->
+
+        <area
+            name=""
+            coords="513,2272,618,2272,618,2298,513,2298"
+            exh_id="727"
+            id="@+id/area100191"
+            shape="poly" />
+        <area
+            name=""
+            coords="618,2272,722,2272,722,2298,618,2298"
+            exh_id="150"
+            id="@+id/area100192"
+            shape="poly" />
+        <area
+            name=""
+            coords="513,2247,593,2274,593,2272,513,2272"
+            exh_id="1082"
+            id="@+id/area100193"
+            shape="poly" />
+        <area
+            name=""
+            coords="593,2247,644,2247,644,2272,593,2272"
+            exh_id="1383"
+            id="@+id/area100194"
+            shape="poly" />
+        <area
+            name=""
+            coords="644,2247,722,2247,722,2272,644,2272"
+            exh_id="269"
+            id="@+id/area100195"
+            shape="poly" />
+        <area
+            name=""
+            coords="762,2272,998,2272,998,2298,762,2298"
+            exh_id="344"
+            id="@+id/area100196"
+            shape="poly" />
+        <area
+            name=""
+            coords="762,2246,867,2246,867,2272,762,2272"
+            exh_id="875"
+            id="@+id/area100197"
+            shape="poly" />
+        <area
+            name=""
+            coords="867,2246,998,2246,998,2272,867,2272"
+            exh_id="218"
+            id="@+id/area100198"
+            shape="poly" />
+        <area
+            name=""
+            coords="1038,2153,1195,2153,1195,2298,1038,2298"
+            exh_id="20"
+            id="@+id/area100199"
+            shape="poly" />
+        <area
+            name=""
+            coords="513,2180,564,2180,564,2206,513,2206"
+            exh_id="1259"
+            id="@+id/area10019110"
+            shape="poly" />
+        <area
+            name=""
+            coords="564,2180,617,2180,617,2206,564,2206"
+            exh_id="1471"
+            id="@+id/area10019111"
+            shape="poly" />
+        <area
+            name=""
+            coords="617,2180,665,2180,665,2206,617,2206"
+            exh_id="318"
+            id="@+id/area10019112"
+            shape="poly" />
+        <area
+            name=""
+            coords="665,2180,722,2180,722,2206,665,2206"
+            exh_id="166"
+            id="@+id/area10019113"
+            shape="poly" />
+        <area
+            name=""
+            coords="513,2155,591,2155,591,2180,513,2180"
+            exh_id="1458"
+            id="@+id/area10019114"
+            shape="poly" />
+        <area
+            name=""
+            coords="591,2155,644,2155,644,2180,591,2180"
+            exh_id="180"
+            id="@+id/area10019115"
+            shape="poly" />
+        <area
+            name=""
+            coords="644,2155,722,2155,722,2180,644,2180"
+            exh_id="1609"
+            id="@+id/area10019116"
+            shape="poly" />
+        <area
+            name=""
+            coords="762,2180,840,2180,840,2206,762,2206"
+            exh_id="726"
+            id="@+id/area10019117"
+            shape="poly" />
+        <area
+            name=""
+            coords="840,2180,893,2180,893,2206,840,2206"
+            exh_id="1455"
+            id="@+id/area10019118"
+            shape="poly" />
+        <area
+            name=""
+            coords="893,2180,998,2180,998,2206,893,2206"
+            exh_id="220"
+            id="@+id/area10019119"
+            shape="poly" />
+        <area
+            name=""
+            coords="762,2154,814,2154,814,2180,762,2180"
+            exh_id="964"
+            id="@+id/area10019120"
+            shape="poly" />
+        <area
+            name=""
+            coords="814,2154,867,2154,867,2180,814,2180"
+            exh_id="1642"
+            id="@+id/area10019121"
+            shape="poly" />
+        <area
+            name=""
+            coords="867,2154,998,2154,998,2180,867,2180"
+            exh_id="246"
+            id="@+id/area10019122"
+            shape="poly" />
+        <area
+            name=""
+            coords="513,2088,592,2088,592,2113,513,2113"
+            exh_id="1641"
+            id="@+id/area10019123"
+            shape="poly" />
+        <area
+            name=""
+            coords="592,2088,644,2088,644,2113,592,2113"
+            exh_id="1057"
+            id="@+id/area10019124"
+            shape="poly" />
+        <area
+            name=""
+            coords="644,2088,722,2088,722,2113,644,2113"
+            exh_id="1130"
+            id="@+id/area10019125"
+            shape="poly" />
+        <area
+            name=""
+            coords="513,2062,565,2062,565,2088,513,2088"
+            exh_id="1337"
+            id="@+id/area10019126"
+            shape="poly" />
+        <area
+            name=""
+            coords="565,2062,618,2062,618,2088,565,2088"
+            exh_id="1649"
+            id="@+id/area10019127"
+            shape="poly" />
+        <area
+            name=""
+            coords="618,2062,670,2062,670,2088,618,2088"
+            exh_id="1596"
+            id="@+id/area10019128"
+            shape="poly" />
+        <area
+            name=""
+            coords="670,2062,722,2062,722,2088,670,2088"
+            exh_id="1362"
+            id="@+id/area10019129"
+            shape="poly" />
+        <area
+            name=""
+            coords="763,2088,841,2088,841,2113,763,2113"
+            exh_id="1580"
+            id="@+id/area10019130"
+            shape="poly" />
+        <area
+            name=""
+            coords="841,2088,998,2088,998,2113,841,2113"
+            exh_id="670"
+            id="@+id/area10019131"
+            shape="poly" />
+        <area
+            name=""
+            coords="763,2062,841,2062,841,2088,763,2088"
+            exh_id="1595"
+            id="@+id/area10019132"
+            shape="poly" />
+        <area
+            name=""
+            coords="841,2062,998,2062,998,2088,841,2062"
+            exh_id="262"
+            id="@+id/area10019133"
+            shape="poly" />
+        <area
+            name=""
+            coords="1038,2062,1195,2062,1165,2113,1038,2113"
+            exh_id="843"
+            id="@+id/area10019134"
+            shape="poly" />
+        <area
+            name=""
+            coords="1246,2048,1271,2048,1271,2074,1246,2074"
+            exh_id="445"
+            id="@+id/area10019135"
+            shape="poly" />
+        <area
+            name=""
+            coords="513,1994,565,1994,565,2020,513,2020"
+            exh_id="1607"
+            id="@+id/area10019136"
+            shape="poly" />
+        <area
+            name=""
+            coords="618,1994,644,1994,645,2020,618,2020"
+            exh_id="1709"
+            id="@+id/area10019137"
+            shape="poly" />
+        <area
+            name=""
+            coords="644,1994,722,1994,723,2020,644,2020"
+            exh_id="1031"
+            id="@+id/area10019138"
+            shape="poly" />
+        <area
+            name=""
+            coords="513,1968,565,1968,565,1994,513,1994"
+            exh_id="226"
+            id="@+id/area10019139"
+            shape="poly" />
+        <area
+            name=""
+            coords="565,1968,618,1968,618,1994,565,1994"
+            exh_id="1478"
+            id="@+id/area10019140"
+            shape="poly" />
+        <area
+            name=""
+            coords="763,1994,841,1994,841,2020,763,2020"
+            exh_id="929"
+            id="@+id/area10019141"
+            shape="poly" />
+        <area
+            name=""
+            coords="841,1994,894,1994,894,2020,841,2020"
+            exh_id="812"
+            id="@+id/area10019142"
+            shape="poly" />
+        <area
+            name=""
+            coords="894,1994,999,1994,999,2020,894,2020"
+            exh_id="894"
+            id="@+id/area10019143"
+            shape="poly" />
+        <area
+            name=""
+            coords="763,1968,894,1968,894,1994,763,1994"
+            exh_id="323"
+            id="@+id/area10019144"
+            shape="poly" />
+        <area
+            name=""
+            coords="894,1968,999,1968,999,1994,894,1994"
+            exh_id="114"
+            id="@+id/area10019145"
+            shape="poly" />
+        <area
+            name=""
+            coords="1039,1968,1196,1968,1196,2020,1039,2020"
+            exh_id="915"
+            id="@+id/area10019146"
+            shape="poly" />
+        <area
+            name=""
+            coords="513,1888,565,1888,565,1914,513,1914"
+            exh_id="1428"
+            id="@+id/area10019147"
+            shape="poly" />
+        <area
+            name=""
+            coords="565,1888,618,1888,618,1914,565,1914"
+            exh_id="151"
+            id="@+id/area10019148"
+            shape="poly" />
+        <area
+            name=""
+            coords="618,1888,670,1888,670,1914,618,1888"
+            exh_id="305"
+            id="@+id/area10019149"
+            shape="poly" />
+        <area
+            name=""
+            coords="670,1888,722,1888,722,1914,670,1914"
+            exh_id="1506"
+            id="@+id/area10019150"
+            shape="poly" />
+        <area
+            name=""
+            coords="513,1862,591,1862,591,1888,513,1888"
+            exh_id="708"
+            id="@+id/area10019151"
+            shape="poly" />
+        <area
+            name=""
+            coords="591,1862,644,1862,644,1888,591,1888"
+            exh_id="1621"
+            id="@+id/area10019152"
+            shape="poly" />
+        <area
+            name=""
+            coords="644,1862,722,1862,722,1888,644,1888"
+            exh_id="1059"
+            id="@+id/area10019153"
+            shape="poly" />
+        <area
+            name=""
+            coords="762,1888,814,1888,814,1914,762,1914"
+            exh_id="570"
+            id="@+id/area10019154"
+            shape="poly" />
+        <area
+            name=""
+            coords="814,1888,867,1888,867,1914,814,1914"
+            exh_id="1241"
+            id="@+id/area10019155"
+            shape="poly" />
+        <area
+            name=""
+            coords="867,1888,998,1888,998,1914,867,1914"
+            exh_id="275"
+            id="@+id/area10019156"
+            shape="poly" />
+        <area
+            name=""
+            coords="762,1862,841,1862,841,1888,762,1888"
+            exh_id="538"
+            id="@+id/area10019157"
+            shape="poly" />
+        <area
+            name=""
+            coords="841,1862,894,1862,894,1888,841,1888"
+            exh_id="1364"
+            id="@+id/area10019158"
+            shape="poly" />
+        <area
+            name=""
+            coords="919,1862,998,1862,998,1888,919,1888"
+            exh_id="1075"
+            id="@+id/area10019159"
+            shape="poly" />
+        <area
+            name=""
+            coords="919,1862,998,1862,998,1888,919,1888"
+            exh_id="1075"
+            id="@+id/area10019160"
+            shape="poly" />
+        <area
+            name=""
+            coords="1038,1888,1143,1888,1143,1914,1038,1914"
+            exh_id="310"
+            id="@+id/area10019161"
+            shape="poly" />
+        <area
+            name=""
+            coords="1038,1862,1143,1862,1143,1888,1038,1888"
+            exh_id="1207"
+            id="@+id/area10019162"
+            shape="poly" />
+        <area
+            name=""
+            coords="1143,1862,1195,1862,1195,1914,1143,1914"
+            exh_id="1557"
+            id="@+id/area10019163"
+            shape="poly" />
+        <area
+            name=""
+            coords="1246,1920,1272,1920,1272,1972,1246,1972"
+            exh_id="1303"
+            id="@+id/area10019164"
+            shape="poly" />
+        <area
+            name=""
+            coords="1246,1867,1272,1867,1272,1920,1246,1920"
+            exh_id="1493"
+            id="@+id/area10019165"
+            shape="poly" />
+        <area
+            name=""
+            coords="1246,1735,1272,1735,1272,1867,1246,1867"
+            exh_id="1639"
+            id="@+id/area10019166"
+            shape="poly" />
+        <area
+            name=""
+            coords="564,1796,643,1796,643,1822,564,1822"
+            exh_id="1698"
+            id="@+id/area10019167"
+            shape="poly" />
+        <area
+            name=""
+            coords="643,1796,722,1796,722,1822,643,1822"
+            exh_id="1680"
+            id="@+id/area10019168"
+            shape="poly" />
+        <area
+            name=""
+            coords="564,1770,643,1770,643,1796,564,1796"
+            exh_id="1073"
+            id="@+id/area10019169"
+            shape="poly" />
+        <area
+            name=""
+            coords="643,1770,722,1770,722,1796,643,1796"
+            exh_id="247"
+            id="@+id/area10019170"
+            shape="poly" />
+        <area
+            name=""
+            coords="762,1796,815,1796,815,1822,762,1822"
+            exh_id="1673"
+            id="@+id/area10019171"
+            shape="poly" />
+        <area
+            name=""
+            coords="815,1796,873,1796,873,1822,815,1822"
+            exh_id="154"
+            id="@+id/area10019172"
+            shape="poly" />
+        <area
+            name=""
+            coords="873,1796,918,1796,918,1822,873,1822"
+            exh_id="13"
+            id="@+id/area10019173"
+            shape="poly" />
+        <area
+            name=""
+            coords="918,1796,998,1796,998,1822,918,1822"
+            exh_id="1001"
+            id="@+id/area10019174"
+            shape="poly" />
+        <area
+            name=""
+            coords="762,1770,815,1770,815,1796,762,1796"
+            exh_id="626"
+            id="@+id/area10019175"
+            shape="poly" />
+        <area
+            name=""
+            coords="815,1770,867,1770,867,1796,815,1796"
+            exh_id="1591"
+            id="@+id/area10019176"
+            shape="poly" />
+        <area
+            name=""
+            coords="867,1770,998,1770,998,1796,867,1796"
+            exh_id="252"
+            id="@+id/area10019177"
+            shape="poly" />
+        <area
+            name=""
+            coords="1039,1770,1104,1770,1104,1822,1039,1822"
+            exh_id="246"
+            id="@+id/area10019178"
+            shape="poly" />
+        <area
+            name=""
+            coords="1104,1770,1195,1770,1195,1822,1104,1822"
+            exh_id="1239"
+            id="@+id/area10019179"
+            shape="poly" />
+        <area
+            name=""
+            coords="564,1704,643,1704,643,1729,564,1729"
+            exh_id="691"
+            id="@+id/area10019180"
+            shape="poly" />
+        <area
+            name=""
+            coords="643,1704,722,1704,722,1729,643,1729"
+            exh_id="192"
+            id="@+id/area10019181"
+            shape="poly" />
+        <area
+            name=""
+            coords="564,1678,617,1678,617,1704,564,1704"
+            exh_id="1577"
+            id="@+id/area10019182"
+            shape="poly" />
+        <area
+            name=""
+            coords="617,1678,721,1678,721,1704,617,1704"
+            exh_id="1165"
+            id="@+id/area10019183"
+            shape="poly" />
+        <area
+            name=""
+            coords="762,1703,867,1703,867,1729,762,1729"
+            exh_id="516"
+            id="@+id/area10019184"
+            shape="poly" />
+        <area
+            name=""
+            coords="867,1703,998,1703,998,1729,867,1729"
+            exh_id="184"
+            id="@+id/area10019185"
+            shape="poly" />
+        <area
+            name=""
+            coords="762,1678,867,1678,867,1703,762,1703"
+            exh_id="377"
+            id="@+id/area10019186"
+            shape="poly" />
+        <area
+            name=""
+            coords="867,1678,998,1678,998,1703,867,1703"
+            exh_id="222"
+            id="@+id/area10019187"
+            shape="poly" />
+        <area
+            name=""
+            coords="1038,1678,1195,1678,1195,1729,1038,1729"
+            exh_id="1426"
+            id="@+id/area10019188"
+            shape="poly" />
+        <area
+            name=""
+            coords="513,1610,722,1610,722,1636,513,1636"
+            exh_id="711"
+            id="@+id/area10019189"
+            shape="poly" />
+        <area
+            name=""
+            coords="513,1584,565,1584,565,1610,513,1610"
+            exh_id="983"
+            id="@+id/area10019190"
+            shape="poly" />
+        <area
+            name=""
+            coords="565,1584,722,1584,722,1610,565,1610"
+            exh_id="241"
+            id="@+id/area10019191"
+            shape="poly" />
+        <area
+            name=""
+            coords="763,1610,841,1610,841,1636,763,1636"
+            exh_id="1081"
+            id="@+id/area10019192"
+            shape="poly" />
+        <area
+            name=""
+            coords="841,1610,868,1610,868,1636,841,1636"
+            exh_id="1651"
+            id="@+id/area10019193"
+            shape="poly" />
+        <area
+            name=""
+            coords="868,1610,998,1610,998,1636,868,1636"
+            exh_id="186"
+            id="@+id/area10019194"
+            shape="poly" />
+        <area
+            name=""
+            coords="762,1584,815,1584,815,1610,762,1610"
+            exh_id="1447"
+            id="@+id/area10019195"
+            shape="poly" />
+        <area
+            name=""
+            coords="815,1584,867,1584,868,1610,815,1610"
+            exh_id="238"
+            id="@+id/area10019196"
+            shape="poly" />
+        <area
+            name=""
+            coords="1039,1559,1196,1559,1196,1636,1039,1636"
+            exh_id="1235"
+            id="@+id/area10019197"
+            shape="poly" />
+        <area
+            name=""
+            coords="510,1500,589,1500,589,1525,510,1525"
+            exh_id="1095"
+            id="@+id/area10019198"
+            shape="poly" />
+        <area
+            name=""
+            coords="589,1500,720,1500,720,1525,589,1525"
+            exh_id="314"
+            id="@+id/area10019199"
+            shape="poly" />
+        <area
+            name=""
+            coords="510,1473,563,1473,563,1500,510,1500"
+            exh_id="1656"
+            id="@+id/area100191100"
+            shape="poly" />
+        <area
+            name=""
+            coords="563,1473,615,1473,615,1500,563,1500"
+            exh_id="1423"
+            id="@+id/area100191101"
+            shape="poly" />
+        <area
+            name=""
+            coords="615,1473,668,1473,668,1500,615,1500"
+            exh_id="1436"
+            id="@+id/area100191102"
+            shape="poly" />
+        <area
+            name=""
+            coords="668,1473,720,1473,720,1500,668,1500"
+            exh_id="1164"
+            id="@+id/area100191103"
+            shape="poly" />
+        <area
+            name=""
+            coords="761,1473,997,1473,997,1525,761,1525"
+            exh_id="259"
+            id="@+id/area100191104"
+            shape="poly" />
+        <area
+            name=""
+            coords="1039,1467,1196,1467,1196,1518,1039,1518"
+            exh_id="259"
+            id="@+id/area100191105"
+            shape="poly" />
+
+        <!-- *********** HALL - 9 *********** -->
+        <!-- *********** HALL - 12 *********** -->
+
+        <area
+            name=""
+            coords="2205,1054,2412,1024,2434,1180,2227,1210"
+            exh_id="982"
+            id="@+id/area100112001"
+            shape="poly" />
+        <area
+            name=""
+            coords="2596,1003,2713,985,2736,1140,2619,1158"
+            exh_id="130"
+            id="@+id/area100112002"
+            shape="poly" />
+        <area
+            name=""
+            coords="2753,979,2849,963,2872,1120,2775,1134"
+            exh_id="110"
+            id="@+id/area100112003"
+            shape="poly" />
+        <area
+            name=""
+            coords="2890,957,3111,925,3134,1081,2913,1113"
+            exh_id="358"
+            id="@+id/area100112004"
+            shape="poly" />
+        <area
+            name=""
+            coords="3368,861,3477,845,3500,1001,3390,1016"
+            exh_id="1060"
+            id="@+id/area100112005"
+            shape="poly" />
+        <area
+            name=""
+            coords="3777,849,3906,830,3926,959,3797,978"
+            exh_id="562"
+            id="@+id/area100112006"
+            shape="poly" />
+        <area
+            name=""
+            coords="3460,1062,3523,1052,3531,1104,3466,1113"
+            exh_id="1520"
+            id="@+id/area100112007"
+            shape="poly" />
+        <area
+            name=""
+            coords="3387,1071,3439,1064,3446,1115,3395,1123"
+            exh_id="931"
+            id="@+id/area100112008"
+            shape="poly" />
+        <area
+            name=""
+            coords="2350,1248,2453,1232,2456,1258,2354,1273"
+            exh_id="1452"
+            id="@+id/area100112009"
+            shape="poly" />
+        <area
+            name=""
+            coords="2473,1230,2524,1222,2528,1248,2477,1255"
+            exh_id="993"
+            id="@+id/area100112010"
+            shape="poly" />
+        <area
+            name=""
+            coords="2795,1184,2820,1180,2824,1205,2798,1209"
+            exh_id="514"
+            id="@+id/area100112011"
+            shape="poly" />
+        <area
+            name=""
+            coords="2820,1180,2846,1176,2850,1201,2824,1205"
+            exh_id="1516"
+            id="@+id/area100112012"
+            shape="poly" />
+        <area
+            name=""
+            coords="2846,1176,2872,1172,2876,1198,2850,1200"
+            exh_id="1534"
+            id="@+id/area100112013"
+            shape="poly" />
+        <area
+            name=""
+            coords="2872,1172,2898,1169,2902,1194,2876,1197"
+            exh_id="1643"
+            id="@+id/area100112014"
+            shape="poly" />
+        <area
+            name=""
+            coords="3074,1143,3126,1136,3130,1161,3079,1168"
+            exh_id="1521"
+            id="@+id/area100112015"
+            shape="poly" />
+        <area
+            name=""
+            coords="3126,1135,3178,1128,3183,1154,3130,1160"
+            exh_id="1155"
+            id="@+id/area100112016"
+            shape="poly" />
+        <area
+            name=""
+            coords="3178,1128,3308,1110,3312,1134,3183,1153"
+            exh_id="1460"
+            id="@+id/area100112017"
+            shape="poly" />
+        <area
+            name=""
+            coords="3836,708,3889,700,3899,778,3849,783"
+            exh_id="1396"
+            id="@+id/area100112018"
+            shape="poly" />
+        <area
+            name=""
+            coords="3569,614,3724,592,3748,747,3592,770"
+            exh_id="204"
+            id="@+id/area100112019"
+            shape="poly" />
+        <area
+            name=""
+            coords="3531,428,3664,407,3687,534,3551,557"
+            exh_id="386"
+            id="@+id/area100112020"
+            shape="poly" />
+        <area
+            name=""
+            coords="2282,515,2307,511,2322,615,2297,618"
+            exh_id="152"
+            id="@+id/area100112021"
+            shape="poly" />
+        <area
+            name=""
+            coords="2307,511,2333,508,2344,585,2319,589"
+            exh_id="1657"
+            id="@+id/area100112022"
+            shape="poly" />
+        <area
+            name=""
+            coords="2344,585,2363,715,2338,718,2319,589"
+            exh_id="1625"
+            id="@+id/area100112023"
+            shape="poly" />
+        <area
+            name=""
+            coords="2343,758,2368,754,2403,987,2377,992"
+            exh_id="941"
+            id="@+id/area100112024"
+            shape="poly" />
+        <area
+            name=""
+            coords="2409,749,2435,745,2468,978,2443,982"
+            exh_id="941"
+            id="@+id/area100112025"
+            shape="poly" />
+        <area
+            name=""
+            coords="2388,606,2413,602,2429,705,2403,709"
+            exh_id="200"
+            id="@+id/area100112026"
+            shape="poly" />
+        <area
+            name=""
+            coords="2413,601,2439,598,2454,701,2429,705"
+            exh_id="207"
+            id="@+id/area100112027"
+            shape="poly" />
+        <area
+            name=""
+            coords="2435,745,2460,741,2472,818,2447,822"
+            exh_id="213"
+            id="@+id/area100112028"
+            shape="poly" />
+        <area
+            name=""
+            coords="2450,849,2475,845,2494,975,2468,978"
+            exh_id="270"
+            id="@+id/area100112029"
+            shape="poly" />
+        <area
+            name=""
+            coords="2479,593,2505,588,2512,639,2487,644"
+            exh_id="1726"
+            id="@+id/area100112030"
+            shape="poly" />
+        <area
+            name=""
+            coords="2505,588,2531,584,2538,636,2512,639"
+            exh_id="407"
+            id="@+id/area100112031"
+            shape="poly" />
+        <area
+            name=""
+            coords="2500,735,2526,731,2537,812,2512,816"
+            exh_id="728"
+            id="@+id/area100112032"
+            shape="poly" />
+        <area
+            name=""
+            coords="2537,812,2561,964,2534,969,2512,816"
+            exh_id="291"
+            id="@+id/area100112033"
+            shape="poly" />
+        <area
+            name=""
+            coords="2534,783,2559,779,2586,961,2560,965"
+            exh_id="289"
+            id="@+id/area100112034"
+            shape="poly" />
+        <area
+            name=""
+            coords="2577,617,2628,609,2637,674,2585,682"
+            exh_id="1489"
+            id="@+id/area100112035"
+            shape="poly" />
+        <area
+            name=""
+            coords="2592,722,2617,719,2628,796,2603,800"
+            exh_id="741"
+            id="@+id/area100112036"
+            shape="poly" />
+        <area
+            name=""
+            coords="2603,799,2628,796,2635,848,2610,852"
+            exh_id="1537"
+            id="@+id/area100112037"
+            shape="poly" />
+        <area
+            name=""
+            coords="2610,852,2635,848,2651,952,2625,955"
+            exh_id="233"
+            id="@+id/area100112038"
+            shape="poly" />
+        <area
+            name=""
+            coords="2617,718,2655,713,2667,790,2628,796"
+            exh_id="1705"
+            id="@+id/area100112039"
+            shape="poly" />
+        <area
+            name=""
+            coords="2628,796,2667,790,2679,869,2641,874"
+            exh_id="437"
+            id="@+id/area100112040"
+            shape="poly" />
+        <area
+            name=""
+            coords="2641,874,2679,869,2690,946,2651,952"
+            exh_id="1578"
+            id="@+id/area100112041"
+            shape="poly" />
+        <area
+            name=""
+            coords="2718,703,2795,692,2830,926,2752,936"
+            exh_id="110"
+            id="@+id/area100112042"
+            shape="poly" />
+        <area
+            name=""
+            coords="2672,458,2697,453,2716,583,2689,587"
+            exh_id="349"
+            id="@+id/area100112043"
+            shape="poly" />
+        <area
+            name=""
+            coords="2689,587,2741,580,2752,568,2701,665"
+            exh_id="639"
+            id="@+id/area100112044"
+            shape="poly" />
+        <area
+            name=""
+            coords="2697,454,2723,450,2734,528,2709,532"
+            exh_id="1583"
+            id="@+id/area100112045"
+            shape="poly" />
+        <area
+            name=""
+            coords="2709,532,2734,528,2740,580,2715,583"
+            exh_id="1623"
+            id="@+id/area100112046"
+            shape="poly" />
+        <area
+            name=""
+            coords="2771,496,2823,489,2846,644,2794,651"
+            exh_id="1453"
+            id="@+id/area100112047"
+            shape="poly" />
+        <area
+            name=""
+            coords="2846,685,2872,682,2883,760,2857,763"
+            exh_id="363"
+            id="@+id/area100112048"
+            shape="poly" />
+        <area
+            name=""
+            coords="2857,763,2909,756,2932,912,2880,919"
+            exh_id="1700"
+            id="@+id/area100112049"
+            shape="poly" />
+        <area
+            name=""
+            coords="2872,681,2897,679,2906,730,2880,734"
+            exh_id="1571"
+            id="@+id/area100112050"
+            shape="poly" />
+        <area
+            name=""
+            coords="2880,734,2906,730,2909,756,2883,760"
+            exh_id="1572"
+            id="@+id/area100112051"
+            shape="poly" />
+        <area
+            name=""
+            coords="2880,734,2906,730,2909,756,2883,760"
+            exh_id="1572"
+            id="@+id/area100112052"
+            shape="poly" />
+        <area
+            name=""
+            coords="2843,355,3011,330,3030,447,2861,471"
+            exh_id="1432"
+            id="@+id/area100112053"
+            shape="poly" />
+        <area
+            name=""
+            coords="2870,533,2895,529,2903,580,2877,585"
+            exh_id="1268"
+            id="@+id/area100112054"
+            shape="poly" />
+        <area
+            name=""
+            coords="2877,585,2929,577,2936,629,2885,637"
+            exh_id="1669"
+            id="@+id/area100112055"
+            shape="poly" />
+        <area
+            name=""
+            coords="2895,529,2921,524,2929,577,2903,580"
+            exh_id="1378"
+            id="@+id/area100112056"
+            shape="poly" />
+        <area
+            name=""
+            coords="2943,697,2981,692,2996,796,2957,801"
+            exh_id="1570"
+            id="@+id/area100112057"
+            shape="poly" />
+        <area
+            name=""
+            coords="2987,801,3034,790,3049,894,2972,905"
+            exh_id="1585"
+            id="@+id/area100112058"
+            shape="poly" />
+        <area
+            name=""
+            coords="2980,692,3020,686,3034,789,2996,796"
+            exh_id="644"
+            id="@+id/area100112059"
+            shape="poly" />
+        <area
+            name=""
+            coords="2960,500,3037,490,3045,541,2967,552"
+            exh_id="1613"
+            id="@+id/area100112060"
+            shape="poly" />
+        <area
+            name=""
+            coords="2967,552,3045,541,3056,618,2978,629"
+            exh_id="768"
+            id="@+id/area100112061"
+            shape="poly" />
+        <area
+            name=""
+            coords="3074,455,3125,447,3133,499,3081,508"
+            exh_id="703"
+            id="@+id/area100112062"
+            shape="poly" />
+        <area
+            name=""
+            coords="3081,508,3133,499,3148,603,3097,611"
+            exh_id="1040"
+            id="@+id/area100112063"
+            shape="poly" />
+        <area
+            name=""
+            coords="3118,396,3169,387,3181,464,3129,473"
+            exh_id="1397"
+            id="@+id/area100112067"
+            shape="poly" />
+        <area
+            name=""
+            coords="3129,473,3181,464,3189,516,3137,525"
+            exh_id="1627"
+            id="@+id/area100112068"
+            shape="poly" />
+        <area
+            name=""
+            coords="3137,525,3189,516,3201,594,3148,603"
+            exh_id="930"
+            id="@+id/area100112069"
+            shape="poly" />
+        <area
+            name=""
+            coords="3173,649,3237,639,3257,768,3193,777"
+            exh_id="799"
+            id="@+id/area100112070"
+            shape="poly" />
+        <area
+            name=""
+            coords="3193,777,3257,768,3269,845,3205,855"
+            exh_id="987"
+            id="@+id/area100112071"
+            shape="poly" />
+        <area
+            name=""
+            coords="3209,379,3273,369,3306,576,3241,585"
+            exh_id="1558"
+            id="@+id/area100112072"
+            shape="poly" />
+        <area
+            name=""
+            coords="3283,643,3387,630,3394,681,3290,695"
+            exh_id="883"
+            id="@+id/area100112073"
+            shape="poly" />
+        <area
+            name=""
+            coords="3316,359,3465,338,3497,572,3354,592"
+            exh_id="1430"
+            id="@+id/area100112074"
+            shape="poly" />
+        <area
+            name=""
+            coords="3424,270,3476,262,3480,289,3428,296"
+            exh_id="1600"
+            id="@+id/area100112075"
+            shape="poly" />
+        <area
+            name=""
+            coords="3425,639,3476,631,3487,709,3436,716"
+            exh_id="1348"
+            id="@+id/area100112076"
+            shape="poly" />
+        <area
+            name=""
+            coords="3436,716,3487,709,3497,774,3446,780"
+            exh_id="1105"
+            id="@+id/area100112077"
+            shape="poly" />
+        <area
+            name=""
+            coords="3476,631,3528,625,3539,689,3486,696"
+            exh_id="1671"
+            id="@+id/area100112078"
+            shape="poly" />
+        <area
+            name=""
+            coords="3486,696,3539,689,3550,766,3497,773"
+            exh_id="1693"
+            id="@+id/area100112079"
+            shape="poly" />
+        <area
+            name=""
+            coords="3510,257,3535,254,3540,279,3514,283"
+            exh_id="282"
+            id="@+id/area100112080"
+            shape="poly" />
+        <area
+            name=""
+            coords="3535,253,3561,250,3566,275,3540,278"
+            exh_id="248"
+            id="@+id/area100112081"
+            shape="poly" />
+
+        <!-- *********** HALL - 12 *********** -->
+        
+        
+        
+        
+        <!-- *********** HALL - 10 & 11 *********** -->
+        <area
+            id="@+id/area100111001"
+            name=""
+            coords="760,1126,838,1126,838,1152,760,1152"
+            exh_id="1009"
+            shape="poly" />
+        <area
+            id="@+id/area100111002"
+            name=""
+            coords="864,901,891,901,891,927,864,927"
+            exh_id="1395"
+            shape="poly" />
+        <area
+            id="@+id/area100111003"
+            name=""
+            coords="641,1020,720,1020,720,1046,641,1046"
+            exh_id="1384"
+            shape="poly" />
+        <area
+            id="@+id/area100111004"
+            name=""
+            coords="2190,528,2216,524,2228,601,2201,605"
+            exh_id="1374"
+            shape="poly" />
+        <area
+            id="@+id/area100111005"
+            name=""
+            coords="1037,1348,1194,1348,1194,1427,1037,1427"
+            exh_id="1367"
+            shape="poly" />
+        <area
+            id="@+id/area100111006"
+            name=""
+            coords="798,758,825,758,825,810,798,810"
+            exh_id="1366"
+            shape="poly" />
+        <area
+            id="@+id/area100111007"
+            name=""
+            coords="1572,666,1597,663,1604,714,1579,718"
+            exh_id="1363"
+            shape="poly" />
+        <area
+            id="@+id/area100111008"
+            name=""
+            coords="761,1190,839,1190,839,1217,761,1217"
+            exh_id="1227"
+            shape="poly" />
+        <area
+            id="@+id/area100111009"
+            name=""
+            coords="1088,1020,1192,1020,1192,1046,1088,1046"
+            exh_id="1216"
+            shape="poly" />
+        <area
+            id="@+id/area100111010"
+            name=""
+            coords="866,1218,945,1218,945,1244,866,1244"
+            exh_id="1406"
+            shape="poly" />
+        <area
+            id="@+id/area100111011"
+            name=""
+            coords="2046,625,2072,625,2078,676,2053,678"
+            exh_id="1421"
+            shape="poly" />
+        <area
+            id="@+id/area100111012"
+            name=""
+            coords="838,1381,995,1381,995,1407,838,1407"
+            exh_id="1425"
+            shape="poly" />
+        <area
+            id="@+id/area100111013"
+            name=""
+            coords="891,901,996,901,996,927,891,927"
+            exh_id="1437"
+            shape="poly" />
+        <area
+            id="@+id/area100111014"
+            name=""
+            coords="818,994,882,994,882,1020,818,1020"
+            exh_id="1443"
+            shape="poly" />
+        <area
+            id="@+id/area100111015"
+            name=""
+            coords="918,1126,987,1126,987,1153,918,1153"
+            exh_id="1453"
+            shape="poly" />
+        <area
+            id="@+id/area100111016"
+            name=""
+            coords="614,1381,719,1381,719,1408,614,1408"
+            exh_id="1462"
+            shape="poly" />
+        <area
+            id="@+id/area100111017"
+            name=""
+            coords="760,928,812,927,812,954,760,954"
+            exh_id="1476"
+            shape="poly" />
+        <area
+            id="@+id/area100111018"
+            name=""
+            coords="1486,706,1510,700,1520,755,1490,759"
+            exh_id="1504"
+            shape="poly" />
+        <area
+            id="@+id/area100111019"
+            name=""
+            coords="1366,777,1390,775,1403,853,1378,855"
+            exh_id="1513"
+            shape="poly" />
+        <area
+            id="@+id/area100111020"
+            name=""
+            coords="562,1020,642,1020,642,1045,562,1045"
+            exh_id="1517"
+            shape="poly" />
+        <area
+            id="@+id/area100111021"
+            name=""
+            coords="2155,918,2180,914,2186,966,2162,969"
+            exh_id="1542"
+            shape="poly" />
+        <area
+            id="@+id/area100111022"
+            name=""
+            coords="1575,866,1601,862,1613,939,1586,945"
+            exh_id="1551"
+            shape="poly" />
+        <area
+            id="@+id/area100111023"
+            name=""
+            coords="1143,1257,1195,1257,1195,1309,1143,1309"
+            exh_id="1723"
+            shape="poly" />
+        <area
+            id="@+id/area100111024"
+            name=""
+            coords="2875,680,2895,679,2806,703,2882,734"
+            exh_id="1571"
+            shape="poly" />
+        <area
+            id="@+id/area100111025"
+            name=""
+            coords="2880,733,2906,731,2909,755,2884,760"
+            exh_id="1572"
+            shape="poly" />
+        <area
+            id="@+id/area100111026"
+            name=""
+            coords="1035,902,1088,902,1088,928,1035,928"
+            exh_id="1582"
+            shape="poly" />
+        <area
+            id="@+id/area100111027"
+            name=""
+            coords="639,1188,718,1188,718,1215,639,1215"
+            exh_id="146"
+            shape="poly" />
+        <area
+            id="@+id/area100111028"
+            name=""
+            coords="1558,749,1584,746,1594,825,1569,828"
+            exh_id="864"
+            shape="poly" />
+        <area
+            id="@+id/area100111029"
+            name=""
+            coords="1340,1060,1365,1057,1378,1134,1350,1138"
+            exh_id="105"
+            shape="poly" />
+        <area
+            id="@+id/area100111030"
+            name=""
+            coords="1925,620,1951,616,1976,772,1945,774"
+            exh_id="1066"
+            shape="poly" />
+        <area
+            id="@+id/area100111031"
+            name=""
+            coords="759,1407,996,1407,996,1433,759,1433"
+            exh_id="285"
+            shape="poly" />
+        <area
+            id="@+id/area100111032"
+            name=""
+            coords="1537,542,1615,529,1619,556,1541,568"
+            exh_id="1148"
+            shape="poly" />
+        <area
+            id="@+id/area100111033"
+            name=""
+            coords="2010,555,2033,552,2042,601,2015,605"
+            exh_id="135"
+            shape="poly" />
+        <area
+            id="@+id/area100111034"
+            name=""
+            coords="642,1099,721,1099,721,1125,642,1125"
+            exh_id="127"
+            shape="poly" />
+        <area
+            id="@+id/area100111035"
+            name=""
+            coords="1604,862,1628,585,1643,961,1617,968"
+            exh_id="172"
+            shape="poly" />
+        <area
+            id="@+id/area100111036"
+            name=""
+            coords="944,757,996,757,996,785,944,785"
+            exh_id="713"
+            shape="poly" />
+        <area
+            id="@+id/area100111037"
+            name=""
+            coords="1281,657,1306,654,1321,758,1296,762"
+            exh_id="1603"
+            shape="poly" />
+        <area
+            id="@+id/area100111038"
+            name=""
+            coords="1550,696,1576,693,1578,718,1554,725"
+            exh_id="1599"
+            shape="poly" />
+        <area
+            id="@+id/area100111039"
+            name=""
+            coords="1749,591,1775,585,1791,689,1765,695"
+            exh_id="1401"
+            shape="poly" />
+        <area
+            id="@+id/area100111040"
+            name=""
+            coords="2236,653,2260,649,2272,727,2247,732"
+            exh_id="295"
+            shape="poly" />
+        <area
+            id="@+id/area100111041"
+            name=""
+            coords="641,993,720,993,720,1020,641,1020"
+            exh_id="1444"
+            shape="poly" />
+        <area
+            id="@+id/area100111042"
+            name=""
+            coords="2238,1263,2264,1257,2268,1285,2244,1288"
+            exh_id="1338"
+            shape="poly" />
+        <area
+            id="@+id/area100111043"
+            name=""
+            coords="1665,654,1692,651,1695,677,1670,680"
+            exh_id="1666"
+            shape="poly" />
+        <area
+            id="@+id/area100111044"
+            name=""
+            coords="1382,894,1408,891,1418,954,1393,958"
+            exh_id="1006"
+            shape="poly" />
+        <area
+            id="@+id/area100111045"
+            name=""
+            coords="1820,1323,1924,1308,1928,1334,1824,1348"
+            exh_id="1404"
+            shape="poly" />
+        <area
+            id="@+id/area100111046"
+            name=""
+            coords="642,901,720,901,720,928,642,928"
+            exh_id="775"
+            shape="poly" />
+        <area
+            id="@+id/area100111047"
+            name=""
+            coords="2140,643,2166,636,2182,741,2155,745"
+            exh_id="921"
+            shape="poly" />
+        <area
+            id="@+id/area100111048"
+            name=""
+            coords="1525,980,1551,975,1568,1105,1544,1105"
+            exh_id="224"
+            shape="poly" />
+        <area
+            id="@+id/area100111049"
+            name=""
+            coords="1632,606,1657,603,1668,680,1644,684"
+            exh_id="1399"
+            shape="poly" />
+        <area
+            id="@+id/area100111050"
+            name=""
+            coords="1841,577,1868,574,1873,624,1848,629"
+            exh_id="1403"
+            shape="poly" />
+        <area
+            id="@+id/area100111051"
+            name=""
+            coords="2099,541,2125,536,2135,616,2113,617"
+            exh_id="136"
+            shape="poly" />
+        <area
+            id="@+id/area100111052"
+            name=""
+            coords="2019,633,2046,629,2049,651,2024,658"
+            exh_id="1485"
+            shape="poly" />
+        <area
+            id="@+id/area100111053"
+            name=""
+            coords="2596,1002,2712,984,2735,1140,2618,1157"
+            exh_id="130"
+            shape="poly" />
+        <area
+            id="@+id/area100111054"
+            name=""
+            coords="509,1408,588,1408,588,1434,509,1434"
+            exh_id="1214"
+            shape="poly" />
+        <area
+            id="@+id/area100111055"
+            name=""
+            coords="1265,1191,1369,1175,1391,1331,1289,1348"
+            exh_id="1144"
+            shape="poly" />
+        <area
+            id="@+id/area100111056"
+            name=""
+            coords="825,785,877,785,877,863,825,863"
+            exh_id="1025"
+            shape="poly" />
+        <area
+            id="@+id/area100111057"
+            name=""
+            coords="642,1126,721,1126,721,1152,642,1152"
+            exh_id="1394"
+            shape="poly" />
+        <area
+            id="@+id/area100111058"
+            name=""
+            coords="509,1381,588,1381,588,1408,509,1408"
+            exh_id="1038"
+            shape="poly" />
+        <area
+            id="@+id/area100111059"
+            name=""
+            coords="759,1380,838,1380,838,1406,759,1406"
+            exh_id="1373"
+            shape="poly" />
+        <area
+            id="@+id/area100111060"
+            name=""
+            coords="2015,607,2042,603,2045,630,2018,631"
+            exh_id="1226"
+            shape="poly" />
+        <area
+            id="@+id/area100111061"
+            name=""
+            coords="760,1314,866,1314,866,1341,760,1340"
+            exh_id="321"
+            shape="poly" />
+        <area
+            id="@+id/area100111062"
+            name=""
+            coords="2023,659,2050,655,2052,681,2027,683"
+            exh_id="369"
+            shape="poly" />
+        <area
+            id="@+id/area100111063"
+            name=""
+            coords="760,993,818,993,818,1020,760,1020"
+            exh_id="749"
+            shape="poly" />
+        <area
+            id="@+id/area100111064"
+            name=""
+            coords="885,993,997,993,997,1020,885,1020"
+            exh_id="1237"
+            shape="poly" />
+        <area
+            id="@+id/area100111065"
+            name=""
+            coords="1893,929,1919,925,1927,977,1893,928"
+            exh_id="528"
+            shape="poly" />
+        <area
+            id="@+id/area100111066"
+            name=""
+            coords="1731,646,1755,642,1779,798,1753,802"
+            exh_id="298"
+            shape="poly" />
+        <area
+            id="@+id/area100111067"
+            name=""
+            coords="1668,681,1696,677,1714,807,1689,812"
+            exh_id="214"
+            shape="poly" />
+        <area
+            id="@+id/area100111068"
+            name=""
+            coords="1406,1169,1485,1157,1508,1313,1430,1325"
+            exh_id="359"
+            shape="poly" />
+        <area
+            id="@+id/area100111069"
+            name=""
+            coords="1787,1022,1812,1017,1823,1071,1793,1074"
+            exh_id="844"
+            shape="poly" />
+        <area
+            id="@+id/area100111070"
+            name=""
+            coords="1765,695,1790,690,1805,792,1780,797"
+            exh_id="307"
+            shape="poly" />
+        <area
+            id="@+id/area100111071"
+            name=""
+            coords="1445,632,1472,628,1480,680,1455,682"
+            exh_id="1128"
+            shape="poly" />
+        <area
+            id="@+id/area100111072"
+            name=""
+            coords="1525,1151,1590,1141,1612,1289,1548,1308"
+            exh_id="958"
+            shape="poly" />
+        <area
+            id="@+id/area100111073"
+            name=""
+            coords="1830,685,1856,680,1868,785,1864,786"
+            exh_id="800"
+            shape="poly" />
+        <area
+            id="@+id/area100111074"
+            name=""
+            coords="2472,1229,2524,1222,2528,1248,2478,1255"
+            exh_id="993"
+            shape="poly" />
+        <area
+            id="@+id/area100111075"
+            name=""
+            coords="1038,1283,1143,1282,1143,1309,1038,1309"
+            exh_id="1655"
+            shape="poly" />
+        <area
+            id="@+id/area100111076"
+            name=""
+            coords="641,1289,720,1289,720,1314,641,1314"
+            exh_id="1287"
+            shape="poly" />
+        <area
+            id="@+id/area100111077"
+            name=""
+            coords="1361,751,1386,747,1390,774,1366,777"
+            exh_id="1640"
+            shape="poly" />
+        <area
+            id="@+id/area100111078"
+            name=""
+            coords="1671,1345,1724,1337,1727,1363,1677,1371"
+            exh_id="851"
+            shape="poly" />
+        <area
+            id="@+id/area100111079"
+            name=""
+            coords="1783,997,1809,994,1813,1017,1786,1021"
+            exh_id="1637"
+            shape="poly" />
+        <area
+            id="@+id/area100111080"
+            name=""
+            coords="588,1381,614,1381,614,1408,588,1408"
+            exh_id="1636"
+            shape="poly" />
+        <area
+            id="@+id/area100111081"
+            name=""
+            coords="1643,683,1669,680,1672,707,1648,711"
+            exh_id="1631"
+            shape="poly" />
+        <area
+            id="@+id/area100111082"
+            name=""
+            coords="1038,1257,1143,1255,1143,1282,1038,1282"
+            exh_id="1615"
+            shape="poly" />
+        <area
+            id="@+id/area100111083"
+            name=""
+            coords="945,1192,997,1192,998,1244,945,1244"
+            exh_id="1650"
+            shape="poly" />
+        <area
+            id="@+id/area100111084"
+            name=""
+            coords="1659,603,1685,598,1691,650,1666,654"
+            exh_id="1663"
+            shape="poly" />
+        <area
+            id="@+id/area100111085"
+            name=""
+            coords="2210,657,2236,654,2246,731,2220,736"
+            exh_id="1659"
+            shape="poly" />
+        <area
+            id="@+id/area100111086"
+            name=""
+            coords="1780,969,1805,965,1809,994,1784,997"
+            exh_id="1660"
+            shape="poly" />
+        <area
+            id="@+id/area100111087"
+            name=""
+            coords="812,927,838,927,838,954,812,954"
+            exh_id="1652"
+            shape="poly" />
+        <area
+            id="@+id/area100111088"
+            name=""
+            coords="1753,1333,1805,1325,1809,1350,1758,1359"
+            exh_id="403"
+            shape="poly" />
+        <area
+            id="@+id/area100111089"
+            name=""
+            coords="893,1289,945,1289,945,1314,893,1314"
+            exh_id="109"
+            shape="poly" />
+        <area
+            id="@+id/area100111090"
+            name=""
+            coords="2132,590,2160,585,2165,636,2141,641"
+            exh_id="1661"
+            shape="poly" />
+        <area
+            id="@+id/area100111091"
+            name=""
+            coords="839,927,892,927,892,955,839,955"
+            exh_id="542"
+            shape="poly" />
+        <area
+            id="@+id/area100111092"
+            name=""
+            coords="2943,697,2980,690,2994,794,2959,800"
+            exh_id="1570"
+            shape="poly" />
+        <area
+            id="@+id/area100111093"
+            name=""
+            coords="1733,1122,1797,1112,1821,1268,1754,1278"
+            exh_id="1114"
+            shape="poly" />
+        <area
+            id="@+id/area100111094"
+            name=""
+            coords="1958,668,1984,663,2000,767,1975,771"
+            exh_id="1113"
+            shape="poly" />
+        <area
+            id="@+id/area100111095"
+            name=""
+            coords="1087,994,1192,994,1192,1020,1087,1020"
+            exh_id="1670"
+            shape="poly" />
+        <area
+            id="@+id/area100111096"
+            name=""
+            coords="2035,551,2062,547,2072,624,2045,627"
+            exh_id="790"
+            shape="poly" />
+        <area
+            id="@+id/area100111097"
+            name=""
+            coords="1837,1106,1903,1098,1925,1252,1860,1263"
+            exh_id="536"
+            shape="poly" />
+        <area
+            id="@+id/area100111098"
+            name=""
+            coords="1867,932,1892,928,1902,980,1872,983"
+            exh_id="1465"
+            shape="poly" />
+        <area
+            id="@+id/area100111099"
+            name=""
+            coords="1393,958,1417,951,1426,1019,1402,1025"
+            exh_id="1427"
+            shape="poly" />
+        <area
+            id="@+id/area100111100"
+            name=""
+            coords="1724,595,1749,589,1758,642,1732,646"
+            exh_id="1512"
+            shape="poly" />
+        <area
+            id="@+id/area100111101"
+            name=""
+            coords="2055,880,2080,875,2088,928,2064,929"
+            exh_id="776"
+            shape="poly" />
+        <area
+            id="@+id/area100111102"
+            name=""
+            coords="2090,928,2114,924,2121,974,2096,979"
+            exh_id="1674"
+            shape="poly" />
+        <area
+            id="@+id/area100111103"
+            name=""
+            coords="2151,892,2176,888,2180,914,2154,917"
+            exh_id="1686"
+            shape="poly" />
+        <area
+            id="@+id/area100111104"
+            name=""
+            coords="2042,801,2070,798,2081,877,2056,879"
+            exh_id="1689"
+            shape="poly" />
+        <area
+            id="@+id/area100111105"
+            name=""
+            coords="1853,827,1878,825,1889,902,1864,904"
+            exh_id="1676"
+            shape="poly" />
+        <area
+            id="@+id/area100111106"
+            name=""
+            coords="1809,994,1835,989,1849,1068,1812,1070"
+            exh_id="1682"
+            shape="poly" />
+        <area
+            id="@+id/area100111107"
+            name=""
+            coords="2205,631,2231,627,2236,654,2209,658"
+            exh_id="1687"
+            shape="poly" />
+        <area
+            id="@+id/area100111108"
+            name=""
+            coords="2245,903,2271,902,2286,1005,2260,1009"
+            exh_id="1694"
+            shape="poly" />
+        <area
+            id="@+id/area100111109"
+            name=""
+            coords="2234,827,2260,822,2268,875,2241,878"
+            exh_id="1692"
+            shape="poly" />
+        <area
+            id="@+id/area100111110"
+            name=""
+            coords="945,1289,997,1289,997,1341,945,1341"
+            exh_id="1509"
+            shape="poly" />
+        <area
+            id="@+id/area100111111"
+            name=""
+            coords="1564,614,1591,611,1599,662,1573,668"
+            exh_id="1684"
+            shape="poly" />
+        <area
+            id="@+id/area100111112"
+            name=""
+            coords="2000,965,2027,962,2038,1040,2010,1043"
+            exh_id="1459"
+            shape="poly" />
+        <area
+            id="@+id/area100111113"
+            name=""
+            coords="2858,763,2907,756,2930,912,2880,918"
+            exh_id="1700"
+            shape="poly" />
+        <area
+            id="@+id/area100111114"
+            name=""
+            coords="1776,945,1802,940,1806,969,1778,969"
+            exh_id="1704"
+            shape="poly" />
+        <area
+            id="@+id/area100111115"
+            name=""
+            coords="1713,968,1738,962,1744,1004,1718,1007"
+            exh_id="1706"
+            shape="poly" />
+        <area
+            id="@+id/area100111116"
+            name=""
+            coords="1761,839,1786,836,1793,887,1769,893"
+            exh_id="1707"
+            shape="poly" />
+        <area
+            id="@+id/area100111117"
+            name=""
+            coords="2162,783,2186,780,2202,884,2176,888"
+            exh_id="1387"
+            shape="poly" />
+        <area
+            id="@+id/area100111118"
+            name=""
+            coords="1036,1020,1087,1020,1087,1046,1036,1046"
+            exh_id="360"
+            shape="poly" />
+        <area
+            id="@+id/area100111119"
+            name=""
+            coords="2162,969,2188,966,2195,1018,2169,1023"
+            exh_id="584"
+            shape="poly" />
+        <area
+            id="@+id/area100111120"
+            name=""
+            coords="2226,775,2252,772,2261,823,2235,826"
+            exh_id="1702"
+            shape="poly" />
+        <area
+            id="@+id/area100111121"
+            name=""
+            coords="1800,941,1826,938,1834,988,1810,992"
+            exh_id="1712"
+            shape="poly" />
+        <area
+            id="@+id/area100111122"
+            name=""
+            coords="1771,918,1798,916,1802,940,1776,945"
+            exh_id="1713"
+            shape="poly" />
+        <area
+            id="@+id/area100111123"
+            name=""
+            coords="1968,919,1992,915,2010,1046,1984,1047"
+            exh_id="405"
+            shape="poly" />
+        <area
+            id="@+id/area100111124"
+            name=""
+            coords="1768,894,1793,889,1798,914,1772,918"
+            exh_id="1714"
+            shape="poly" />
+        <area
+            id="@+id/area100111125"
+            name=""
+            coords="1692,1008,1742,1002,1754,1080,1704,1087"
+            exh_id="577"
+            shape="poly" />
+        <area
+            id="@+id/area100111126"
+            name=""
+            coords="562,928,641,928,641,954,562,954"
+            exh_id="1319"
+            shape="poly" />
+        <area
+            id="@+id/area100111127"
+            name=""
+            coords="588,1408,720,1408,720,1434,588,1434"
+            exh_id="227"
+            shape="poly" />
+        <area
+            id="@+id/area100111128"
+            name=""
+            coords="1498,799,1523,796,1529,832,1502,837"
+            exh_id="1220"
+            shape="poly" />
+        <area
+            id="@+id/area100111129"
+            name=""
+            coords="562,994,641,994,641,1020,562,1020"
+            exh_id="436"
+            shape="poly" />
+        <area
+            id="@+id/area100111130"
+            name=""
+            coords="2125,534,2150,532,2156,585,2133,588"
+            exh_id="1718"
+            shape="poly" />
+        <area
+            id="@+id/area100111131"
+            name=""
+            coords="1794,888,1819,885,1821,911,1798,913"
+            exh_id="1722"
+            shape="poly" />
+        <area
+            id="@+id/area100111132"
+            name=""
+            coords="1037,1096,1195,1096,1195,1214,1037,1214"
+            exh_id="177"
+            shape="poly" />
+        <area
+            id="@+id/area100111133"
+            name=""
+            coords="2096,980,2122,976,2130,1027,2103,1029"
+            exh_id="1688"
+            shape="poly" />
+        <area
+            id="@+id/area100111134"
+            name=""
+            coords="1402,1024,1426,1020,1441,1124,1418,1129"
+            exh_id="1298"
+            shape="poly" />
+        <area
+            id="@+id/area100111135"
+            name=""
+            coords="2350,1247,2453,1232,2456,1257,2354,1271"
+            exh_id="1452"
+            shape="poly" />
+        <area
+            id="@+id/area100111136"
+            name=""
+            coords="2112,618,2136,614,2139,640,2114,644"
+            exh_id="1503"
+            shape="poly" />
+        <area
+            id="@+id/area100111137"
+            name=""
+            coords="1499,984,1525,979,1529,1004,1503,1009"
+            exh_id="410"
+            shape="poly" />
+
+        <!-- *********** HALL - 10 & 11 *********** -->
+    </map>
+
+</maps>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:caldroid="http://schemas.android.com/apk/res-auto">
+
+    <item caldroid:state_date_disabled="true" android:color="@color/caldroid_darker_gray"/>
+    <item caldroid:state_date_prev_next_month="true" android:color="@color/caldroid_darker_gray"/>
+    <item caldroid:state_date_today="true" android:color="@color/caldroid_black"/>
+    <item android:state_pressed="true" android:color="@color/caldroid_white"/>
+    <item android:color="@color/caldroid_black"/>
+
+</selector>

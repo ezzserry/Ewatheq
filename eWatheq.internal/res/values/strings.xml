@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+
+        <string-array name="str_lanuage_array">
+                <item>العربية</item>
+                <item>English</item>
+        </string-array>
+
+        <!-- eWatheq Strings -->
+        <string name="app_name">eWatheq Internal</string>
+        <string name="str_internet_is_not_available">Internet Connection is Not available.</string>
+        <string name="str_loading">Loading &#8230; </string>
+        <string name="str_internetMessage">Internet Connection Required . Do you want to enable it ?</string>
+        <string name="str_empty"></string>
+        <string name="str_keep_me_loged_in">Keep me logged in</string>
+        <string name="str_sign_in">Login</string>
+        <string name="str_submit">Submit</string>
+
+        <string name="str_show_all">Show All</string>
+        <string name="str_full_name">Full Name</string>
+        <string name="str_confirm_password">Confirm Password</string>
+
+
+        <string name="str_title">Title</string>
+        <string name="str_description">Description</string>
+        <string name="str_grant_access_to_na">GRANT ACCESS TO NATIONAL ARCHIVES</string>
+        <string name="str_grant_access_to_na_detail_message">Are you sure you want to grant access to NA for your file. Please remember you cannot change it later.</string>
+        <string name="str_grant_access_to_na_message_hint">Message For National Archives</string>
+        <string name="str_save">Save</string>
+        <string name="str_invalid_file_type">Invalid File Type</string>
+        <string name="str_max_file_seize">File Size should be less than 2MB</string>
+        <string name="str_no_files">No files in this folder</string>
+        <string name="str_home_files">ALL FILES</string>
+        <string name="str_home_about_us">ABOUT US</string>
+        <string name="str_home_settings">SETTINGS</string>
+        <string name="str_about_watheq">About Watheq</string>
+        <string name="str_about_developer">About Developer</string>
+        <string name="str_update_category">Update Category</string>
+        <string name="str_update_folder_success">Category updated successfully </string>
+
+        <string name="str_about_ewatheq_html_file">aboutus/about_ewatheq_en.html</string>
+        <string name="str_about_interface_html_file">aboutus/about_interface_en.html</string>
+        <string name="str_welcome">Welcome</string>
+        <string name="str_logout">Logout</string>
+        <string name="str_logging_out">Logging Out</string>
+        <string name="str_loading_user_qouta">Loading User Quota </string>
+        <string name="str_help">Help</string>
+        <string name="str_email_subject">Ewatheq File -</string>
+        <string name="str_email">Email </string>
+        <string name="str_password">Password</string>
+        <string name="str_photos">PHOTOS</string>
+        <string name="str_documents">DOCUMENTS</string>
+        <string name="str_all">ALL</string>
+        <string name="str_cancel">Cancel</string>
+        <string name="str_delete_file">Delete File</string>
+        <string name="str_are_you_sure_to_delete_file">Are you sure to delete file ?</string>
+        <string name="str_yes">Yes</string>
+        <string name="str_no">No</string>
+        <string name="str_capture_image">Capture Image</string>
+        <string name="str_select_image_or_doc">Select Image or Document</string>
+        <string name="str_view_application_guide">View Application Guide</string>
+        <string name="str_search_hint">Search here </string>
+        <string name="str_interneTtitle">Internet Connection</string>
+        <string name="str_language">Language</string>
+        <string name="str_version">Version</string>
+        <string name="str_copy_rights_title">Copyrights</string>
+        <string name="str_copy_rights_desc">Copyrights 2015, National Archives, Abu Dhabi - United Arab Emirates. All rights reserved</string>
+        <string name="str_default_version">1.0.0</string>
+        <string name="str_ar">العربية</string>
+        <string name="str_eng">English</string>
+        <string name="str_share">Share</string>
+        <string name="str_sel_lang">Select Language</string>
+
+
+
+        <string name="str_downloading">Downloading</string>
+        <string name="str_ok">Ok</string>
+        <string name="str_searching">Searching</string>
+        <string name="str_emirates_id_detection">Emirates Id Detection</string>
+        <string name="str_emirates_id_detection_error">Only UAE nationals can register to this application</string>
+        <string name="str_register_id_scan">ID Scan Registry</string>
+        <string name="str_register_manual">Register Manually</string>
+        <string name="str_forgot_password">Forgot Password?</string>
+        <string name="str_forgot_password_title">Forgot Password</string>
+
+        <string name="str_all_fields_are_mendatory"> All fields are mendatory.</string>
+        <string name="str_invalid_email"> Invalid email format.</string>
+        <string name="str_developed_by"> Developed By :</string>
+        <string name="str_i_agree_all_info_is_correct">I am UAE National.</string>
+        <string name="str_response_manually_sccuess">Thank you for registration, We will get back to you soon.</string>
+
+        <string name="str_password_not_matching"> Password not matching.</string>
+        <string name="str_password_must_be_minimum_8_characters_long"> Password must be minimum 8 characters long.</string>
+        <string name="str_please_agreeed_on_terms_and_conditions"> Please agreed on terms and conditions.</string>
+        <string name="str_please_select_your_emirates_id_card_image_its_mendatory">Please select your emirates Id Card image its mendatory.</string>
+
+        <string name="str_email_hint">Enter your email </string>
+        <string name="str_password_hint">Enter your password</string>
+        <string name="str_name_hint">Enter your full name</string>
+        <string name="str_emirates_id_hint">Enter your emirates id</string>
+        <string name="str_error_wrong_emirates_id">Please enter valid emirates id</string>
+
+
+
+        <string name="str_please_scan_back_of_id_card_en">Please scan the back of your ID card as illustrated</string>
+        <string name="str_please_scan_back_of_id_card_ar">يرجى مسح الجهة الخلفية لبطاقة الهوية كما هو موضح</string>
+
+
+
+
+
+        <string-array name="menu_array">
+                <item>@string/str_home_files</item>
+                <item>@string/str_home_about_us</item>
+                <item>@string/str_home_settings</item>
+        </string-array>
+        <string-array name="about_na_list_titles">
+                <item>@string/str_about_watheq</item>
+        </string-array>
+
+        <!-- CROP Strings -->
+        <string name="crop__saving">Saving picture…</string>
+        <string name="crop__wait">Please wait…</string>
+        <string name="crop__pick_error">No image sources available</string>
+        <string name="crop__done">DONE</string>
+        <string name="crop__cancel" tools:ignore="ButtonCase">CANCEL</string>
+
+        <string name="str_error_internet" >Please check your internet connection and try again</string>
+        <string name="str_error_login_credentials_wrong" >Login credentials is not correct</string>
+        <string name="str_error_server_general" >Something went worng please retry after some time</string>
+        <string name="str_error_email_already_exist" >This username is already registered, please try another one</string>
+        <string name="str_error_emirates_id_already_exist" >This emirates ID is already registered</string>
+
+        <string name="str_response_file_add" >File added successfully</string>
+        <string name="str_error_file_add" >Add File Error</string>
+        <string name="str_response_file_edit" >File edited successfully</string>
+        <string name="str_error_file_edit" >Edit File Error</string>
+        <string name="str_response_file_delete" >File deleted successfully</string>
+        <string name="str_error_file_delete" >Delete File Error</string>
+
+
+
+
+</resources>

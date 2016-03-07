@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ewatheq_color_sign_in_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/str_home_settings"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/ewatheq_color_primary" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:text="@string/str_welcome"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/str_welcome"
+                    android:textColor="@color/ewatheq_color_primary"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_qouta"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:text="@string/str_welcome"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <ProgressBar
+                    android:id="@+id/pb_qouta"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="30dp"
+                    android:max="100"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:progress="45" />
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="30dp"
+                    android:gravity="center"
+                    ripple:rv_color="@color/ewatheq_color_primary_one_fifth"
+                    ripple:rv_rippleDuration="200"
+                    ripple:rv_type="rectangle">
+
+                    <Button
+                        android:id="@+id/btn_logout"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_btn_logout"
+                        android:gravity="center"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:text="@string/str_logout"
+                        android:textColor="@color/ewatheq_color_primary" />
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <TextView
+                    android:id="@+id/tv_language_heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="@string/str_language"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/ewatheq_color_primary" />
+
+                <RadioGroup
+                    android:id="@+id/rg_lang"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="30dp"
+                    android:padding="10dp">
+
+                    <com.balysv.materialripple.MaterialRippleLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:gravity="center"
+                        ripple:rv_color="@color/ewatheq_color_primary_one_fifth"
+                        ripple:rv_rippleDuration="200"
+                        ripple:rv_type="rectangle">
+
+                        <RelativeLayout
+                            android:id="@+id/rl_ar"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:text="@string/str_ar"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@android:color/black" />
+
+                            <RadioButton
+                                android:id="@+id/rb_ar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:button="@drawable/ic_lang_selection" />
+                        </RelativeLayout>
+                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/color_black_alpha_fifty" />
+
+                    <com.balysv.materialripple.MaterialRippleLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:gravity="center"
+                        ripple:rv_color="@color/ewatheq_color_primary_one_fifth"
+                        ripple:rv_rippleDuration="200"
+                        ripple:rv_type="rectangle">
+
+                        <RelativeLayout
+                            android:id="@+id/rl_eng"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:text="@string/str_eng"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@android:color/black" />
+
+                            <RadioButton
+                                android:id="@+id/rb_eng"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:button="@drawable/ic_lang_selection" />
+                        </RelativeLayout>
+                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/color_black_alpha_fifty" />
+                </RadioGroup>
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="30dp"
+                    android:gravity="center"
+                    ripple:rv_color="@color/ewatheq_color_primary_one_fifth"
+                    ripple:rv_rippleDuration="200"
+                    ripple:rv_type="rectangle">
+
+                    <Button
+                        android:id="@+id/btn_help"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_btn_logout"
+                        android:gravity="center"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:text="@string/str_help"
+                        android:textColor="@color/ewatheq_color_primary" />
+                </com.balysv.materialripple.MaterialRippleLayout>
+                <TextView
+                    android:id="@+id/tv_copyrights"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/str_copy_rights_desc"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- eWatheq Strings -->
+
+    <string name="str_internet_is_not_available">حالي، حاول في وقت لاحق</string>
+    <string name="str_loading">جاري التحميل &#8230; </string>
+    <string name="str_keep_me_loged_in">دخول تلقائي</string>
+    <string name="str_sign_in">دخول</string>
+    <string name="str_submit">تقديم</string>
+    <string name="str_show_all">إظهار الكل</string>
+    <string name="str_full_name">الاسم بالكامل</string>
+    <string name="str_confirm_password">تأكيد كلمة المرور</string>
+    <string name="str_title">العنوان</string>
+    <string name="str_description">البيان</string>
+    <string name="str_grant_access_to_na">إتاحة للأرشيف الوطني</string>
+    <string name="str_grant_access_to_na_detail_message">هل انت متأكد من إتاحة هذا الملف للأرشيف الوطني. لا يمكن الرجوع في هذا الاختيار لاحقاً.</string>
+    <string name="str_grant_access_to_na_message_hint">رسالة من الأرشيف الوطني</string>
+    <string name="str_save">حفظ</string>
+    <string name="str_invalid_file_type">نوع الملف غير صحيح</string>
+    <string name="str_max_file_seize">حجم الملف يجب أن يكون أقل من ٢ ميجابايت</string>
+    <string name="str_no_files">لا يوجد ملفات في هذا المجلد</string>
+    <string name="str_home_files">جميع الملفات</string>
+    <string name="str_home_about_us">من نحن</string>
+    <string name="str_home_settings">إعدادات</string>
+    <string name="str_about_watheq">عن وثق</string>
+    <string name="str_about_developer">عن المطور</string>
+    <string name="str_update_category">تحديث </string>
+    <string name="str_update_folder_success">تم التحديث بنجاح</string>
+
+    <string name="str_about_ewatheq_html_file">aboutus/about_ewatheq_ar.html</string>
+    <string name="str_about_interface_html_file">aboutus/about_interface_ar.html</string>
+    <string name="str_welcome">مرحباً</string>
+    <string name="str_logout">تسجيل الخروج</string>
+    <string name="str_logging_out">الخروج</string>
+    <string name="str_loading_user_qouta">تحميل المتاح للمستخدم </string>
+    <string name="str_help">مساعدة</string>
+    <string name="str_email_subject">ملف وثق الإلكتروني -</string>
+    <string name="str_email">بريد إلكتروني </string>
+    <string name="str_password">كلمة المرور</string>
+    <string name="str_photos">صور</string>
+    <string name="str_documents">وثائق</string>
+    <string name="str_all">الكل</string>
+    <string name="str_cancel">إلغاء</string>
+    <string name="str_delete_file">مسح ملف</string>
+    <string name="str_are_you_sure_to_delete_file">هل أنت متأكد من مسح هذا الملف ?</string>
+    <string name="str_yes">نعم</string>
+    <string name="str_no">لا</string>
+    <string name="str_capture_image">التقاط صورة</string>
+    <string name="str_select_image_or_doc">اختر صورة أو وثيقة</string>
+    <string name="str_view_application_guide">عرض دليل التطبيق</string>
+    <string name="str_search_hint">البحث</string>
+    <string name="str_interneTtitle">Internet Connection</string>
+    <string name="str_language">اللغة</string>
+    <string name="str_version">الإصدار</string>
+    <string name="str_copy_rights_title">الحقوق</string>
+    <string name="str_copy_rights_desc">جميع الحقوق محفوظة للأرشيف الوطني، أبو ظبي – الإمارات العربية المتحدة 2015</string>
+    <string name="str_ar">العربية</string>
+    <string name="str_eng">English</string>
+    <string name="str_share">مشاركة</string>
+    <string name="str_sel_lang">اختر اللغة</string>
+
+
+
+    <string name="str_downloading">تحميل</string>
+    <string name="str_ok">نعم</string>
+    <string name="str_searching">بحث</string>
+    <string name="str_emirates_id_detection">تحقق من هوية الإمارات</string>
+    <string name="str_emirates_id_detection_error">فقط اصحاب الجنسية الإمارتية يمكنهم من دخول إلى التطبيق</string>
+    <string name="str_register_id_scan">تسجيل ضوئي</string>
+    <string name="str_register_manual">تسجيل بشكل يدوي</string>
+    <string name="str_forgot_password">هل نسيت كلمة المرور؟</string>
+    <string name="str_forgot_password_title">هل نسيت كلمة المرور</string>
+    <string name="str_all_fields_are_mendatory">جميع الحقول إلزامية</string>
+    <string name="str_invalid_email"> البريد الإلكتروني خاطىْ</string>
+    <string name="str_developed_by"> تطوير من قبل :</string>
+    <string name="str_i_agree_all_info_is_correct">أنا إماراتي</string>
+    <string name="str_response_manually_sccuess">شكرا على التسجيل، سيتم الرد عليكم قريبا.</string>
+
+    <string name="str_password_not_matching"> كلمة المرور ليست مطابقة.</string>
+    <string name="str_password_must_be_minimum_8_characters_long"> كلمة المرور يجب تن تكون 8 محارف على الاقل.</string>
+    <string name="str_please_agreeed_on_terms_and_conditions"> الرداء القبول بالشروط والأحكام.</string>
+    <string name="str_please_select_your_emirates_id_card_image_its_mendatory">الرجاء اختيار صورة رقم هوية الامارات لانها مطلوبة.</string>
+
+
+    <string name="str_email_hint">أدخل البريد الإلكتروني</string>
+    <string name="str_password_hint">أدخل كلمة السر</string>
+
+    <string name="str_name_hint">أدخل اسمك بالكامل</string>
+    <string name="str_emirates_id_hint">أدخل رقم الهوية الاماراتية</string>
+    <string name="str_error_wrong_emirates_id">الرجاء ادخال رقم هوية اماراتية صحيح</string>
+
+
+    <!-- eWatheq Strings -->
+
+    <!-- CROP Strings -->
+    <string name="crop__saving">حفظ صورة…</string>
+    <string name="crop__wait">برجاء الانتظار…</string>
+    <string name="crop__pick_error">لا يوجد صور</string>
+    <string name="crop__done">تم</string>
+    <string name="crop__cancel">إلغاء</string>
+
+    <string name="str_error_internet" >الرجاء التأكد من وجود شبكة انترنت، ثم حاول مرة أخرى</string>
+    <string name="str_error_login_credentials_wrong" >هناك خطأ في اسم المستخدم أو كلمة المرور</string>
+    <string name="str_error_server_general" >حدث خطأ ما الرجاء المحاولة في وقت اخر</string>
+
+
+    <string name="str_response_file_add" >تمت الإضافة بنجاح</string>
+    <string name="str_error_file_add" >حدث خطأ أثناء الإضافة</string>
+    <string name="str_response_file_edit" >تم التحديث بنجاح</string>
+    <string name="str_error_file_edit" >حدث خطأ أثناء التحديث</string>
+    <string name="str_response_file_delete" >تم الحذف بنجاح</string>
+    <string name="str_error_file_delete" >حدث خطأ أثناء الحذف</string>
+
+</resources>
