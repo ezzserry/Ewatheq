@@ -85,7 +85,8 @@
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:paddingTop="5dp"
-                    android:progress="45" />
+                    android:progress="45"
+                    android:indeterminate="false" />
 
                 <com.balysv.materialripple.MaterialRippleLayout
                     android:layout_width="wrap_content"

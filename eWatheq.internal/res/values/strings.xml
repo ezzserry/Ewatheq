@@ -38,6 +38,7 @@
         <string name="str_about_developer">About Developer</string>
         <string name="str_update_category">Update Category</string>
         <string name="str_update_folder_success">Category updated successfully </string>
+        <string name="str_title_edit_add">Edit or Add file </string>
 
         <string name="str_about_ewatheq_html_file">aboutus/about_ewatheq_en.html</string>
         <string name="str_about_interface_html_file">aboutus/about_interface_en.html</string>

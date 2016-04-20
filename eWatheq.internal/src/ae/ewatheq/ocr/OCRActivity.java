@@ -63,6 +63,7 @@ import com.googlecode.tesseract.android.TessBaseAPI;
 import java.io.File;
 import java.io.IOException;
 
+import ae.ewatheq.SignInActivity;
 import ae.ewatheq.internal.R;
 import ae.ewatheq.ocr.camera.CameraManager;
 import ae.ewatheq.ocr.camera.ShutterButton;
@@ -1118,7 +1119,26 @@ ShutterButton.OnShutterButtonListener {
 		}
 		else if (result.contains(NON_UAE_NATIONAL_STRING))
 		{
-			returnFailureOCRResult();
+//			returnFailureOCRResult();
+			new AlertDialog.Builder(this)
+					.setTitle("Alert message")
+					.setMessage("You are not national.Do you want to back to login?")
+					.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+						public void onClick(DialogInterface dialog, int which) {
+							// continue with delete
+							Intent intent=new Intent(OCRActivity.this, SignInActivity.class);
+							startActivity(intent);
+							finish();
+						}
+					})
+					.setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+						public void onClick(DialogInterface dialog, int which) {
+							// do nothing
+							returnFailureOCRResult();
+						}
+					})
+					.setIcon(android.R.drawable.ic_dialog_alert)
+					.show();
 			return true;
 		}
 

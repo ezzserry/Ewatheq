@@ -104,7 +104,7 @@
     <string name="str_error_login_credentials_wrong" >هناك خطأ في اسم المستخدم أو كلمة المرور</string>
     <string name="str_error_server_general" >حدث خطأ ما الرجاء المحاولة في وقت اخر</string>
 
-
+    <string name="str_title_edit_add">تعديل أو اضافة ملف </string>
     <string name="str_response_file_add" >تمت الإضافة بنجاح</string>
     <string name="str_error_file_add" >حدث خطأ أثناء الإضافة</string>
     <string name="str_response_file_edit" >تم التحديث بنجاح</string>

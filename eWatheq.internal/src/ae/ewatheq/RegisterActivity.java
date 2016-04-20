@@ -77,7 +77,7 @@ public class RegisterActivity extends Activity implements OnClickListener{
 	private ImageView ivEidThumb,ivWatheqLogo;
 	private MaterialRippleLayout rvEidThumb;
 	private EditText etEmail, etFullname, etEmiratesId, etPassword, etConfirmPassword;
-	private CheckBox cbAgreedOn;
+//	private CheckBox cbAgreedOn;
 	//private ProgressBar pbLoading;
 	public static int START_OCR_REQUEST_CODE = 100;
 	public static final String TAG_REGISTER= "tag_register";
@@ -162,7 +162,7 @@ public class RegisterActivity extends Activity implements OnClickListener{
 		etPassword = (EditText)findViewById(R.id.et_password);
 		etConfirmPassword = (EditText)findViewById(R.id.et_confirm_password);
 		etFullname = (EditText)findViewById(R.id.et_name);
-		cbAgreedOn = (CheckBox)findViewById(R.id.cb_agreed_on_info);
+//		cbAgreedOn = (CheckBox)findViewById(R.id.cb_agreed_on_info);
 		rlLoading = (RelativeLayout)findViewById(R.id.rl_loading);
 		btnRegister.setOnClickListener(this);
 
@@ -240,9 +240,9 @@ public class RegisterActivity extends Activity implements OnClickListener{
 				Toast.makeText(activity, activity.getResources().getString(R.string.str_password_must_be_minimum_8_characters_long),
 						Toast.LENGTH_LONG).show();
 
-			else if(!cbAgreedOn.isChecked())
-				Toast.makeText(activity, activity.getResources().getString(R.string.str_emirates_id_detection_error),
-						Toast.LENGTH_LONG).show();
+//			else if(!cbAgreedOn.isChecked())
+//				Toast.makeText(activity, activity.getResources().getString(R.string.str_emirates_id_detection_error),
+//						Toast.LENGTH_LONG).show();
 			else if (isManualRegister && !OCRActivity.isId(eId) )
 			{
 				Toast.makeText(activity, activity.getResources().getString(R.string.str_error_wrong_emirates_id),

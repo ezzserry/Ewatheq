@@ -244,6 +244,7 @@ import ae.ewatheq.internal.R;
 		{
 			//showDetailPan(false);
 			FilesActivity.selectedMenuItem(activity, selectedMenuItemPosition, fragmentNo);
+
 		}
 		else if (fragmentNo == FRAGMENT_ABOUT_US)
 		{

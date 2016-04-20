@@ -15,6 +15,14 @@
         android:layout_height="match_parent"
         android:background="@drawable/crop__texture"
         android:layout_below="@id/done_cancel_bar" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brightness"
+        android:layout_above="@+id/sb_image_brightness"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_margin="5dp"/>
      <SeekBar
         android:id="@+id/sb_image_brightness"
         android:layout_width="fill_parent"

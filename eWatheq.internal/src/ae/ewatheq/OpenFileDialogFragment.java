@@ -61,7 +61,7 @@ public class OpenFileDialogFragment extends DialogFragment implements OnClickLis
 			isImage = !EWatheqUtils.isDocumentByFileType(file.TypeID);
 			if (isImage)
 			{
-				filePath = Constants.URL_WEBSITE_BASE+file.FileLink;	
+				filePath = Constants.URL_WEBSITE_BASE+file.Thumbnaillink;
 			}
 			else
 			{

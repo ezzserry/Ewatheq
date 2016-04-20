@@ -31,6 +31,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -230,7 +231,7 @@ public class FilesActivity extends FragmentActivity implements OnClickListener, 
 
                 eWatheqFile file = filesAdapter.getItem(position);
 
-                AddEditFileDialogFragment fragment = AddEditFileDialogFragment.newInstance(file, false, EWatheqUtils.isDocument(file.FileNamewithextension), file.FileNamewithextension,file.CategoryID);
+                AddEditFileDialogFragment fragment = AddEditFileDialogFragment.newInstance(file, false, EWatheqUtils.isDocument(file.FileNamewithextension), file.FileNamewithextension, file.CategoryID);
 
                 FragmentManager fm = getSupportFragmentManager();
                 fragment.show(fm, "show_add_edit_dialog");
@@ -345,15 +346,15 @@ public class FilesActivity extends FragmentActivity implements OnClickListener, 
 
             @Override
             public void onLongClickDate(Date date, View view) {
-				/*Toast.makeText(getApplicationContext(),
-						"Long click " + formatter.format(date),
+                /*Toast.makeText(getApplicationContext(),
+                        "Long click " + formatter.format(date),
 						Toast.LENGTH_SHORT).show();*/
             }
 
             @Override
             public void onCaldroidViewCreated() {
                 if (caldroidFragment.getLeftArrowButton() != null) {
-					/*Toast.makeText(getApplicationContext(),
+                    /*Toast.makeText(getApplicationContext(),
 							"Caldroid view is created", Toast.LENGTH_SHORT)
 							.show();*/
                     setCustomResourceForDates();
@@ -433,18 +434,36 @@ public class FilesActivity extends FragmentActivity implements OnClickListener, 
             view.setSelected(true);
             openCloseDrawer();
             selectedMenuItem(activity, selectedMenuItemPosition, position);
-            if (selectedMenuItemPosition != position) {
+            if (selectedMenuItemPosition == 0) {
+                finish();
+            } else if (selectedMenuItemPosition != position) {
+
                 finish();
             }
         }
     }
 
     public static void selectedMenuItem(Context context, int currentMenuItemPosition, int selectedPosition) {
-        if (selectedPosition != currentMenuItemPosition) {
-            if (selectedPosition == HOME_ACTIVITY) {
-                Intent intent = new Intent(context, FilesActivity.class);
-                context.startActivity(intent);
-            } else if (selectedPosition == ABOUT_US_ACTIVITY) {
+//        if (selectedPosition != currentMenuItemPosition) {
+//            if (selectedPosition == HOME_ACTIVITY) {
+//                Intent intent = new Intent(context, FilesActivity.class);
+//                context.startActivity(intent);
+//            } else if (selectedPosition == ABOUT_US_ACTIVITY) {
+//                Intent intent = new Intent(context, MainActivity.class);
+//                intent.putExtra(MainActivity.KEY_FRAGMENT_OPTION, ABOUT_US_ACTIVITY);
+//                context.startActivity(intent);
+//            } else if (selectedPosition == SETTINGS_ACTIVITY) {
+//                Intent intent = new Intent(context, MainActivity.class);
+//                intent.putExtra(MainActivity.KEY_FRAGMENT_OPTION, SETTINGS_ACTIVITY);
+//                context.startActivity(intent);
+//            }
+//        }
+
+        if (selectedPosition == 0) {
+            Intent intent = new Intent(context, FilesActivity.class);
+            context.startActivity(intent);
+        } else if (selectedPosition != currentMenuItemPosition) {
+            if (selectedPosition == ABOUT_US_ACTIVITY) {
                 Intent intent = new Intent(context, MainActivity.class);
                 intent.putExtra(MainActivity.KEY_FRAGMENT_OPTION, ABOUT_US_ACTIVITY);
                 context.startActivity(intent);
@@ -453,6 +472,7 @@ public class FilesActivity extends FragmentActivity implements OnClickListener, 
                 intent.putExtra(MainActivity.KEY_FRAGMENT_OPTION, SETTINGS_ACTIVITY);
                 context.startActivity(intent);
             }
+
         }
     }
 
@@ -549,21 +569,21 @@ public class FilesActivity extends FragmentActivity implements OnClickListener, 
                     findViewById(R.id.layout_files).setVisibility(View.VISIBLE);
                     findViewById(R.id.layout_folders).setVisibility(View.GONE);
                     findViewById(R.id.layout_search).setVisibility(View.GONE);
-                    //searchSlidRightHide();
+//                    searchSlidRightHide();
                 }
                 ibSearch.setVisibility(View.VISIBLE);
             } else if (layout == SHOW_FILES) {
                 findViewById(R.id.layout_files).setVisibility(View.VISIBLE);
                 findViewById(R.id.layout_folders).setVisibility(View.GONE);
                 findViewById(R.id.layout_search).setVisibility(View.GONE);
-                //searchSlidRightHide();
+//                searchSlidRightHide();
                 ibSearch.setVisibility(View.VISIBLE);
             } else if (layout == SHOW_FOLDERS) {
                 findViewById(R.id.layout_files).setVisibility(View.GONE);
                 findViewById(R.id.layout_folders).setVisibility(View.VISIBLE);
                 findViewById(R.id.layout_search).setVisibility(View.GONE);
-                //searchSlidRightHide();
-                ibSearch.setVisibility(View.GONE);
+//                searchSlidRightHide();
+                ibSearch.setVisibility(View.VISIBLE);
             }
         }
 
@@ -641,6 +661,7 @@ public class FilesActivity extends FragmentActivity implements OnClickListener, 
             } else if (id == R.id.btn_show_all) {
 
                 clearSearch();
+//                searchSlidRightHide();
 
             } else if (id == R.id.btn_docs) {
 
@@ -736,8 +757,9 @@ public class FilesActivity extends FragmentActivity implements OnClickListener, 
             }
         }
     }
+
     public static void beginCrop(Activity context, Uri source, String fileType) {
-        Uri destination = Uri.fromFile(new File(context.getCacheDir(), "cropped" + ".jpeg" ));
+        Uri destination = Uri.fromFile(new File(context.getCacheDir(), "cropped" + ".jpeg"));
         Crop.of(source, destination).withMaxSize(1500, 1500).start(context);
     }
 
@@ -776,7 +798,7 @@ public class FilesActivity extends FragmentActivity implements OnClickListener, 
     private void handleUnCroppedImage(String path) {
 
         AddEditFileDialogFragment fragment = AddEditFileDialogFragment.newInstance(null, true,
-                true, path,selectedFolderServerId);
+                true, path, selectedFolderServerId);
         FragmentManager fm = getSupportFragmentManager();
         fragment.show(fm, "show_add_edit_dialog");
 
@@ -795,7 +817,7 @@ public class FilesActivity extends FragmentActivity implements OnClickListener, 
         }
 
         AddEditFileDialogFragment fragment = AddEditFileDialogFragment.newInstance(null, true,
-                false, path,selectedFolderServerId);
+                false, path, selectedFolderServerId);
         FragmentManager fm = getSupportFragmentManager();
         fragment.show(fm, "show_add_edit_dialog");
 
@@ -1190,9 +1212,13 @@ public class FilesActivity extends FragmentActivity implements OnClickListener, 
             if (filesAdapter != null)
                 count = filesAdapter.completeFilter(searchText, startDateText, showFilesOption);
             progress.dismiss();
+
             if (filesAdapter != null)
                 filesAdapter.notifyDataSetChanged();
             showNoOfFilesInHeader();
+            showHomeScreenUILayout(SHOW_FILES);
+//            LinearLayout searchlayout=(LinearLayout)findViewById(R.id.layout_search);
+//            searchlayout.setVisibility(View.GONE);
         }
 
     }

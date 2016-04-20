@@ -4,7 +4,7 @@
 
     xmlns:fab="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="fill_parent" >
+    android:layout_height="fill_parent">
 
     <RelativeLayout
         android:id="@+id/rl_top_bar"
@@ -14,8 +14,8 @@
         android:background="@color/ewatheq_color_primary"
         android:orientation="horizontal"
         android:paddingBottom="10dp"
-        android:paddingTop="10dp" >
-        
+        android:paddingTop="10dp">
+
 
         <com.balysv.material.menu.MaterialMenuView
             android:id="@+id/btn_menu"
@@ -33,26 +33,17 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             app:mrl_rippleColor="@color/ewatheq_color_one_forth_white_transparent"
-            app:mrl_rippleDuration="100"
-             >
-
-
-
-
-
-
+            app:mrl_rippleDuration="100">
 
 
             <ImageButton
                 android:id="@+id/ib_search"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                
-                
                 android:background="@android:color/transparent"
                 android:padding="10dp"
-                android:src="@drawable/ic_search" 
-                android:visibility="gone"/>
+                android:src="@drawable/ic_search"
+                android:visibility="visible" />
         </com.balysv.materialripple.MaterialRippleLayout>
 
         <ImageButton
@@ -75,20 +66,19 @@
         android:id="@+id/drawer_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/iv_na_border" >
+        android:layout_below="@+id/iv_na_border">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="fill_parent" >
+            android:layout_height="fill_parent">
 
-            
 
             <LinearLayout
                 android:id="@+id/layout_folders"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:orientation="vertical"
-                android:padding="20dp" >
+                android:padding="20dp">
 
                 <ListView
                     android:id="@+id/lv_folders"
@@ -105,7 +95,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:orientation="vertical"
-                android:visibility="gone" >
+                android:visibility="gone">
 
                 <TextView
                     android:id="@+id/tv_selected_folder_title"
@@ -121,7 +111,7 @@
                     android:marqueeRepeatLimit="marquee_forever"
                     android:scrollHorizontally="true"
                     android:singleLine="true"
-                    
+
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@android:color/white" />
 
@@ -133,18 +123,18 @@
                     android:layout_marginRight="2dp"
                     android:background="@drawable/bg_selected_folder_btn_lout_0"
                     android:paddingBottom="10dp"
-                    android:paddingTop="10dp" >
+                    android:paddingTop="10dp">
 
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_toLeftOf="@+id/tv_folder_nof" >
+                        android:layout_toLeftOf="@+id/tv_folder_nof">
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:orientation="horizontal" >
+                            android:orientation="horizontal">
 
                             <ae.ewatheq.utils.CustomTextViewEqualWidthHeight
                                 android:id="@+id/btn_all"
@@ -212,7 +202,7 @@
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:paddingTop="1dp"
-                        
+
                         android:textAppearance="?android:attr/textAppearanceSmall"
                         android:textColor="@android:color/white" />
                 </RelativeLayout>
@@ -221,7 +211,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:background="@drawable/bg_folder_files" >
+                    android:background="@drawable/bg_folder_files">
 
                     <GridView
                         android:id="@+id/gv_files"
@@ -245,9 +235,9 @@
                         android:paddingRight="10dp"
                         fab:menu_backgroundColor="@color/ewatheq_color_one_forth_white_transparent"
                         fab:menu_colorNormal="@color/ewatheq_color_primary"
-                        
+
                         fab:menu_labels_ellipsize="end"
-                        fab:menu_labels_singleLine="true" >
+                        fab:menu_labels_singleLine="true">
 
                         <com.github.clans.fab.FloatingActionButton
                             android:id="@+id/menu_item_capture_image"
@@ -272,7 +262,7 @@
                         android:id="@+id/rl_no_files"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:visibility="gone" >
+                        android:visibility="gone">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -288,7 +278,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/ewatheq_color_half_black_transparent"
-                        android:visibility="gone" >
+                        android:visibility="gone">
 
                         <ProgressBar
                             android:id="@+id/pb_loading"
@@ -298,12 +288,13 @@
                     </RelativeLayout>
                 </RelativeLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/layout_search"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:orientation="horizontal"
-                android:visibility="gone" >
+                android:visibility="gone">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -318,14 +309,13 @@
                     android:layout_weight="80"
                     android:background="@android:color/white"
                     android:orientation="vertical"
-                    android:padding="20dp" >
+                    android:padding="20dp">
 
                     <LinearLayout
                         android:id="@+id/calendar1"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical" >
-                    </LinearLayout>
+                        android:orientation="vertical"></LinearLayout>
 
                     <EditText
                         android:id="@+id/inputSearch"
@@ -339,15 +329,17 @@
                         android:hint="@string/str_search_hint"
                         android:imeOptions="actionSearch"
                         android:inputType="text"
-                        android:textDirection="rtl" />
+                        android:textDirection="rtl">
+
+                        <requestFocus />
+                    </EditText>
 
                     <com.balysv.materialripple.MaterialRippleLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
 
-                        app:mrl_rippleColor="@color/ewatheq_color_primary_one_fifth"
-                        >
+                        app:mrl_rippleColor="@color/ewatheq_color_primary_one_fifth">
 
                         <TextView
                             android:id="@+id/btn_show_all"

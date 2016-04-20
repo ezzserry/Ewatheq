@@ -26,6 +26,8 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
+import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.DatePicker;
@@ -106,6 +108,7 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
     private RelativeLayout rlImage;
     private View viewShadow;
     private TextView tvDate;
+    private TextView tvTitle;
     private Button btnSave;
     private Button btnShare;
     private Button btnCancel;
@@ -116,6 +119,8 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
 
     private RelativeLayout rlShare, rlLoading, rlGrantAccessToNA;
     private ProgressBar pbLoading;
+    private ProgressDialog progress;
+
     private eWatheqFile file;
     private String tempFilePath;
     private String fileNameWithExtension;
@@ -133,6 +138,8 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
     private String selectedFolderServerId;
     private String[] foldersArray;
     private AddEditFileCallback callback;
+
+    private static final int progr[] = {30, 15, 20, 25, 20};
 
     private boolean isTablet;
     private MaterialMenuView btnBack;
@@ -213,12 +220,16 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         getDialog().getWindow().requestFeature(STYLE_NO_TITLE);
+        InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+        imm.toggleSoftInput(InputMethodManager.SHOW_FORCED, InputMethodManager.HIDE_IMPLICIT_ONLY);
+
         view = inflater.inflate(R.layout.lout_fragment_add_edit_file,
                 container, false);
 
         btnBack = (MaterialMenuView) view.findViewById(R.id.btn_back);
         ivThumb = (ImageView) view.findViewById(R.id.iv_image);
         etDesc = (EditText) view.findViewById(R.id.et_description);
+        etDesc.setMaxLines(3);
         etTitle = (EditText) view.findViewById(R.id.et_title);
         tvDate = (TextView) view.findViewById(R.id.tv_date);
         rlImage = (RelativeLayout) view.findViewById(R.id.rl_image);
@@ -226,7 +237,7 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
         btnCancel = (Button) view.findViewById(R.id.btn_cancel);
         btnSave = (Button) view.findViewById(R.id.btn_save);
         btnShare = (Button) view.findViewById(R.id.btn_share);
-
+        tvTitle = (TextView) view.findViewById(R.id.tv_top_header_title);
         tvUpdateCategory = (TextView) view.findViewById(R.id.tv_update_category);
         tvUpdateCategory.setOnClickListener(this);
 
@@ -238,6 +249,7 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
         rlLoading = (RelativeLayout) view.findViewById(R.id.rl_loading);
         rlGrantAccessToNA = (RelativeLayout) view.findViewById(R.id.rl_grant_access_to_na);
         pbLoading = (ProgressBar) view.findViewById(R.id.pb_loading);
+        progress = new ProgressDialog(getActivity());
 
         isTablet = activity.getResources().getBoolean(R.bool.isTablet);
 
@@ -294,15 +306,13 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
         Bitmap src = null;
 
 
-
-
         if (tempFilePath != null && !tempFilePath.isEmpty()) {
 
             if (isImage) {
                 src = BitmapFactory.decodeFile(tempFilePath);
                 int rotation = CropUtil.getExifRotation(CropUtil.getFromMediaUri(activity, activity.getContentResolver(), Uri.fromFile(new File(tempFilePath))));
                 if (rotation != 0) {
-                    src = rotateImage(src,rotation);
+                    src = rotateImage(src, rotation);
                 }
             } else
                 src = BitmapFactory.decodeResource(activity.getResources(), R.drawable.ic_pdf_deafault);
@@ -320,6 +330,7 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
         }
 
     }
+
     public static Bitmap rotateImage(Bitmap source, float angle) {
         Bitmap retVal;
 
@@ -329,6 +340,7 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
 
         return retVal;
     }
+
     public void showImage(Bitmap bmp) {
         double bitMapWidth = bmp.getWidth();
         double bitMapHeight = bmp.getHeight();
@@ -516,7 +528,7 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-                    // mPostCommentResponse.requestEndedWithError(error);
+                    // mPo1stCommentResponse.requestEndedWithError(error);
 
                     showMessage(activity.getString(R.string.str_error_server_general));
                     showLayout(Constants.SHOW_SCREEN);
@@ -657,6 +669,7 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
 
         eWatheqFile file;
         private long totalSize = 0;
+        private int index = 0;
 
         UploadFileToServer(eWatheqFile file) {
             this.file = file;
@@ -666,19 +679,19 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
         protected void onPreExecute() {
             // setting progress bar to zero
             showLayout(Constants.SHOW_LOADING);
+            progress.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+            progress.setIndeterminate(true);
+            progress.show();
             super.onPreExecute();
         }
 
         @Override
         protected void onProgressUpdate(Integer... progress) {
+
             // Making progress bar visible
-            showLayout(Constants.SHOW_LOADING);
+//            showLayout(Constants.SHOW_LOADING);
 
             // updating progress bar value
-            pbLoading.setProgress(progress[0]);
-
-            // updating percentage value
-
         }
 
         @Override
@@ -705,6 +718,7 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
 
         @SuppressWarnings("deprecation")
         private UploadFileResponse uploadFileInputStreamEntity() {
+
             UploadFileResponse serverResponse = new UploadFileResponse();
             String responseString = null;
 
@@ -787,10 +801,13 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
                     UpdateSuccessFull(fileResponse.Data);
                     dismiss();
                 } else if (fileResponse.Status.equalsIgnoreCase(Constants.SERVER_RESPONSE_STATUS_FAIL_WRONG_CREDENTIALS)) {
+
+                    progress.dismiss();
                     showMessage(activity.getString(R.string.str_error_file_add));
                     showLayout(Constants.SHOW_SCREEN);
                 }
             } else {
+                progress.dismiss();
                 showMessage(activity.getString(R.string.str_error_server_general));
                 showLayout(Constants.SHOW_SCREEN);
             }
@@ -805,6 +822,9 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
             addFileToLocal(file);
             if (callback != null)
                 callback.updateFiles(selectedFolderServerId, true);
+            progress.incrementProgressBy(100);
+            progress.dismiss();
+
 
         } else {
             showMessage(activity, activity.getString(R.string.str_response_file_edit));
@@ -1002,11 +1022,12 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
         } else if (id == R.id.btn_save) {
             FilesActivity.hideSoftKeyPad(activity, etTitle);
             if (isAdd) {
+
                 eWatheqFile tempFile = new eWatheqFile();
                 tempFile.CategoryID = selectedFolder.CategoryID;
                 //tempFile.CategoryID = file.CategoryID;
                 tempFile.Date = EWatheqUtils.getFormattedDate(tvDate.getText().toString(), Constants.DATE_FORMAT_ON_SCREEN, Constants.DATE_FORMAT_FOR_SERVER);
-                tempFile.Description = etDesc.getText().toString();
+                tempFile.Description = etDesc.getText().toString().replace("\n", " ");
                 tempFile.FileID = "";
                 tempFile.FileLink = tempFilePath;
                 tempFile.FileNamewithextension = fileNameWithExtension;
@@ -1019,7 +1040,7 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
                 eWatheqFile tempFile = new eWatheqFile();
                 tempFile.CategoryID = file.CategoryID;
                 tempFile.Date = EWatheqUtils.getFormattedDate(tvDate.getText().toString(), Constants.DATE_FORMAT_ON_SCREEN, Constants.DATE_FORMAT_FOR_SERVER);
-                tempFile.Description = etDesc.getText().toString();
+                tempFile.Description = etDesc.getText().toString().replace("\\n", " ");
                 tempFile.FileID = file.FileID;
                 tempFile.FileNamewithextension = fileNameWithExtension;
                 tempFile.IsShared = String.valueOf(cbGrantAccessToNA);
@@ -1040,6 +1061,7 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
                 fragment.show(fm, "show_add_edit_dialog");
             }
         } else if (id == R.id.btn_share) {
+//            String[] object = {file};
             new DownloadFileFromURL().execute();
         }
     }
@@ -1050,7 +1072,10 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
 
             Intent emailIntent = new Intent(Intent.ACTION_SEND);
             // set the type to 'email'
-            emailIntent.setType("vnd.android.cursor.dir/email");
+//            emailIntent.setType("vnd.android.cursor.dir/email");
+//            emailIntent.setPackage("com.whatsapp");
+            emailIntent.setType("image/*");
+
             String to[] = {""};
             emailIntent.putExtra(Intent.EXTRA_EMAIL, to);
             // the attachment
@@ -1058,7 +1083,12 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
                 emailIntent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(outFile));
             // the mail subject
             emailIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.str_email_subject) + etTitle.getText().toString());
-            startActivity(Intent.createChooser(emailIntent, "Send email..."));
+            try {
+                startActivity(Intent.createChooser(emailIntent, "Send email..."));
+//                activity.startActivity(emailIntent);
+            } catch (android.content.ActivityNotFoundException ex) {
+                Toast.makeText(getActivity(), "Whatsapp have not been installed.", Toast.LENGTH_LONG).show();
+            }
         }
     }
 
@@ -1089,7 +1119,7 @@ public class AddEditFileDialogFragment extends DialogFragment implements OnClick
             try {
                 outFile = EWatheqUtils.getTempFile(file);
                 if (outFile != null) {
-                    URL url = new URL(Constants.URL_WEBSITE_BASE + file.FileLink);
+                    URL url = new URL(Constants.URL_WEBSITE_BASE + file.Thumbnaillink);
                     URLConnection conection = url.openConnection();
                     conection.setConnectTimeout(30000);
                     conection.connect();

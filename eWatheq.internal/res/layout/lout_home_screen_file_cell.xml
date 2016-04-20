@@ -35,7 +35,7 @@
 
         <TextView
             android:id="@+id/tv_title"
-            style="@android:attr/textAppearanceMedium"
+            style="@android:style/TextAppearance.Medium"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="2dp"
@@ -45,11 +45,12 @@
             android:lines="1"
             android:paddingBottom="5dp"
             android:paddingTop="5dp"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            />
 
         <TextView
             android:id="@+id/tv_date"
-            style="@android:attr/textAppearanceSmall"
+            style="@android:style/TextAppearance.Small"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="2dp"

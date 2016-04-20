@@ -35,7 +35,8 @@
             android:textColor="@android:color/white"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:visibility="invisible" />
+            android:visibility="visible"
+            android:text="@string/str_title_edit_add"/>
     </RelativeLayout>
 
     <ImageView
@@ -69,7 +70,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
-                   
+
                     android:maxHeight="400dp"
                     android:background="@android:color/white"
                     android:scaleType="fitCenter" />
@@ -81,7 +82,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/iv_image"
                     android:layout_centerHorizontal="true"
-                  
+
                     android:background="@android:color/white"
                     android:gravity="center"
                     android:padding="10dp"
@@ -136,8 +137,6 @@
                 android:background="@drawable/bg_text_view"
                 android:gravity="right"
                 android:inputType="textMultiLine"
-                android:lines="5"
-                android:minLines="5"
                 android:padding="5dp"
                 android:singleLine="false" />
             <LinearLayout
